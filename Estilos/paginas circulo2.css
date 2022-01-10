@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    
+    
+}
+
+button{
+    font-family: quicksand;
+}
+
+
+.letra{
+    font-family: quicksand;
+    color: #e5e5e5;
+    text-decoration: none;
+    
+}
+
+
+.azul{
+    background-color: #0f001b;
+}
+.navbar ul li a{
+    font-size: 1em;
+}
+.alinear{
+    width: 100%;
+    margin: 10px auto;
+    font-family: quicksand;
+    color: white;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5,auto);
+    gap: 10px;
+    grid-template-areas: 
+    "redondo engrilla"
+    "footer footer"
+    ;
+}
+.redondo{
+    grid-area: redondo;
+    padding: 5%;
+}
+.engrilla{
+    grid-area: engrilla;
+    padding: 5%;
+    
+}
+.redondo1{
+    grid-area: redondo1;
+    padding: 5%;
+}
+.engrilla1{
+    grid-area: engrilla1;
+    padding: 5%;
+    
+}
+.redondo2{
+    grid-area: redondo2;
+    padding: 5%;
+}
+.engrilla2{
+    grid-area: engrilla2;
+    padding: 5%;
+    
+}
+.redondo3{
+    grid-area: redondo3;
+    padding: 5%;
+}
+.engrilla3{
+    grid-area: engrilla3;
+    padding: 5%;
+    
+}
+.header{
+    grid-area: header;
+    background-color: #0f001b;
+    font-size:calc(14px + 0.5vw);
+    width: 100%;
+}
+
+.footer{
+
+    background-color: #0f001b;
+    grid-area: footer;
+    font-size:calc(10px + 0.5vw);
+    justify-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 10%;
+
+}
+a:link{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+
+}
+a:visited{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(243, 243, 243);
+
+}
+a:active{
+    text-decoration: none;
+    color: rgb(187, 187, 187);
+
+}
+li{
+    list-style: none;
+    display: inline;
+    text-decoration: none;
+}
+.logo{
+    justify-items: flex-start;
+    position: initial;
+    
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+        
+}
+
+.navacom{
+    display: inline-flex;
+    justify-content:end;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 3%;
+
+}
+h2{
+        
+    font-family: 'Pacifico', cursive;
+    font-size:calc(12px + 1.2vw);
+    text-decoration: none;
+    color: #0f001b;
+}
+
+h4{
+       
+    font-family: 'Quicksand', sans-serif;
+    font-size:calc(10px + 0.5vw);
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}
+h3{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-size:calc(12px + 0.8vw);
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+}
+body{
+    background-color: #0f001b;
+}
+.navbar-left{
+    max-width: 70%;
+}
+
