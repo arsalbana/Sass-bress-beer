@@ -2,9 +2,12 @@
 
         background-color: #0f001b;
         grid-area: footer;
-            h4{
-                font:$font-h4;
-            }
+        font-size: calc(10px + 0.5vw);
+        font-family: 'Quicksand';
+        h4{
+            color: #0f001b;
+        }
+        text-decoration: none;
         justify-items: center;
         display: flex;
         flex-wrap: nowrap;
@@ -13,7 +16,7 @@
     
     }
     
-    
+   
     li{
         list-style: none;
         display: inline;

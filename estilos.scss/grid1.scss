@@ -1,0 +1,53 @@
+@import "mixingrid";
+@import "navbar";
+body{
+    background-color: #0f001b;
+
+}
+.imggrande{
+    width: 100%;
+}
+$color1:white;
+$bgcolor1:white;
+$color2:rgb(197, 197, 197);
+$bgcolor2:rgb(118, 118, 118);
+
+.padre{
+    @include grid($color1,$bgcolor1)
+    
+}
+h2{
+        
+    font-family: 'Pacifico', cursive;
+    font-size:calc(12px + 1.2vw);
+    text-decoration: none;
+    color: #0f001b;
+}
+
+
+.padre{
+
+        .posicionfotos1{
+            grid-area: posicionfotos1;
+            list-style: none;
+            transition: width 3s;
+            padding: 15%;
+       
+        
+        }
+        .posicionfotos2{
+            grid-area: posicionfotos2;
+            list-style: none;
+            padding: 15%;
+            transition: width 3s;
+        }
+        .posicionfotos3{
+            grid-area: posicionfotos3;
+            list-style: none;
+            padding: 15%;
+            transition: width 3s;
+        }
+       
+}
+
+@import "footer";

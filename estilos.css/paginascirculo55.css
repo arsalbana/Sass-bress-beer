@@ -1,11 +1,12 @@
+* {
+  padding: 0;
+  margin: 0; }
+
 button {
   font-family: quicksand; }
 
 .letra {
-  font-size: calc(12px + 0.8vw);
-  font-family: 'Quicksand';
-  text-decoration: none;
-  color: #252525; }
+  font: color #b1b1b1, text-decoration none, "Quicksand", sans-serif, 1em; }
 
 .azul {
   background-color: #0f001b; }
@@ -43,32 +44,39 @@ body {
   background-color: white;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: repeat(5, auto);
   gap: 10px;
-  grid-template-areas: "redondo engrilla" "footer footer"; }
+  grid-template-areas: "redondo engrilla"
+ "engrilla1 redondo1"
+ "footer footer"; }
+  .alinear h4 {
+    font: color #333333, text-decoration none, "Quicksand", sans-serif, calc(12px + 0.5vw); }
   .alinear .redondo {
     grid-area: redondo;
     padding: 5%; }
   .alinear .engrilla {
     grid-area: engrilla;
+    padding: 5%;
+    font-family: "Pacifico";
+  }
+
+  .alinear .redondo1 {
+    grid-area: redondo1;
     padding: 5%; }
-    .alinear .engrilla .letratexto {
-      font-size: calc(12px + 1.2vw);
-      font-family: 'Quicksand'; }
+  .alinear .engrilla1 {
+    grid-area: engrilla1;
+    padding: 5%; }
 
 .footer {
   background-color: #0f001b;
   grid-area: footer;
-  font-size: calc(10px + 0.5vw);
-  font-family: 'Quicksand';
-  text-decoration: none;
   justify-items: center;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
   padding: 10%; }
   .footer h4 {
-    color: #0f001b; }
+    font: color #333333, text-decoration none, "Quicksand", sans-serif, calc(12px + 0.5vw); }
 
 li {
   list-style: none;

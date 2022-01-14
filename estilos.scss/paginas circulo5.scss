@@ -1,0 +1,49 @@
+@import "navbar";
+body{
+    background-color: #0f001b;
+
+}
+
+
+.alinear{
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5,auto);
+    gap: 10px;
+    grid-template-areas: 
+    "redondo engrilla"
+    "engrilla1 redondo1"
+    "footer footer";
+        .redondo{
+        grid-area: redondo;
+        padding: 5%;
+
+        }
+        .engrilla{
+            .letratexto{
+                font-size: calc(12px + 1.2vw);
+                font-family: 'Pacifico';
+            }
+            grid-area: engrilla;
+            padding: 5%;
+
+        }
+        .redondo1{
+            grid-area: redondo1;
+            padding: 5%;
+        }
+        .engrilla1{
+            .letratexto1{
+                font-size: calc(10px + 0.8vw);
+                font-family: 'Quicksand';
+            }
+            grid-area: engrilla1;
+            padding: 5%;
+            
+        }
+}
+@import "footer";

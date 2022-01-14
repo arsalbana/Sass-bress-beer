@@ -1,24 +1,14 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-$font-h2: color #0f001b, text-decoration none, 'Pacifico', calc(12px + 1.2vw);
-$font-h3: color rgb(37, 37, 37), text-decoration none, 'Quicksand', sans-serif, calc(12px + 0.8vw);
-$font-h4: color rgb(51, 51, 51), text-decoration none, 'Quicksand', sans-serif, calc(10px + 0.5vw);
 @import "navbar";
 body{
     background-color: #0f001b;
-    
+
 }
 
 .alinear{
     width: 100%;
     margin: 10px auto;
     background-color: white;
-        h4{
-            font:$font-h4;
-         }
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2,auto);
     gap: 10px;
@@ -28,10 +18,16 @@ body{
         .redondo{
         grid-area: redondo;
         padding: 5%;
+
         }
         .engrilla{
+            .letratexto{
+                font-size: calc(12px + 1.2vw);
+                font-family: 'Quicksand';
+            }
             grid-area: engrilla;
-            padding: 5%; 
+            padding: 5%;
+
         }
 }
 @import "footer";

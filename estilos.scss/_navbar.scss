@@ -3,9 +3,13 @@ button{
     }
     
     .letra{
-        font: $font-h3;
+        font-size: calc(12px + 0.8vw);
+        font-family: 'Quicksand';
+        text-decoration: none;
+        color: rgb(37, 37, 37);
         
     }
+    
     
     .azul{
         background-color: #0f001b;
@@ -43,4 +47,6 @@ button{
             }
         }
     }
-    
+
+
+  
