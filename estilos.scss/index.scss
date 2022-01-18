@@ -1,8 +1,5 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
+@import "variables";
+@import "reseteo";
 li{
     list-style: none;
     
@@ -35,8 +32,9 @@ h2{
 }
 
 .logo{
-position:absolute; top: 40%; bottom: 60%; left: 44%;
-height: 13%;
+    position:absolute; top: 40%; bottom: 60%; left: 44%;
+    height: 13%;
+    align-content: center;
 
 }
 .frase{
@@ -59,7 +57,7 @@ height: 13%;
     font-family: quicksand;
     color: #e5e5e5;
     text-decoration: none;
-    font-size:calc(8px + 0.8vw);
+    font-size:calc(8px + #{$width2});
     
 }
 .burbuja{
@@ -323,5 +321,3 @@ height: 13%;
     }
 
 }
-
-    

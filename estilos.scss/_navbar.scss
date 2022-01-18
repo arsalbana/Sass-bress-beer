@@ -1,9 +1,10 @@
+@import "variables";
 button{
         font-family: quicksand;
     }
     
     .letra{
-        font-size: calc(12px + 0.8vw);
+        font-size: calc(10px + #{$width1});
         font-family: 'Quicksand';
         text-decoration: none;
         color: rgb(37, 37, 37);

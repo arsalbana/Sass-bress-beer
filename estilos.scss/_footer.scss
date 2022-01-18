@@ -1,8 +1,9 @@
+@import "variables";
 .footer{
 
         background-color: #0f001b;
-        grid-area: footer;
-        font-size: calc(10px + 0.5vw);
+        grid-area: footer;   
+        font-size:calc(6px + #{$width1});
         font-family: 'Quicksand';
         h4{
             color: #0f001b;

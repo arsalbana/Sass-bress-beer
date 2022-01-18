@@ -1,5 +1,8 @@
-@import "mixingrid";
+@import "variables";
+@import "reseteo";
 @import "navbar";
+@import "mixingrid";
+@import "mixin0";
 body{
     background-color: #0f001b;
 
@@ -7,47 +10,277 @@ body{
 .imggrande{
     width: 100%;
 }
-$color1:white;
-$bgcolor1:white;
-$color2:rgb(197, 197, 197);
-$bgcolor2:rgb(118, 118, 118);
 
 .padre{
-    @include grid($color1,$bgcolor1)
+    @include grid($color,$bgcolor)
     
 }
 h2{
-        
+       
     font-family: 'Pacifico', cursive;
-    font-size:calc(12px + 1.2vw);
+    font-size:calc(12px + #{$width});
     text-decoration: none;
     color: #0f001b;
+    
 }
 
-
-.padre{
-
-        .posicionfotos1{
-            grid-area: posicionfotos1;
-            list-style: none;
-            transition: width 3s;
-            padding: 15%;
-       
+@include media (sm) {
+    
+    .padre{
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+        font-family: quicksand;
+        color: white;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+        gap: 10px;
+        grid-template-areas: 
+        "posicionfotos1"
+        "posicionfotos2"
+        "posicionfotos3"
+        "footer";
+    }
+    .posicionfotos1{
+        grid-area: posicionfotos1;
+        max-width: 80%;
+        align-content: center;
+        text-align: center;
+        transition: width 5s;
+        padding-left: 30%;
+        padding-top: 10%;
         
-        }
-        .posicionfotos2{
-            grid-area: posicionfotos2;
-            list-style: none;
-            padding: 15%;
-            transition: width 3s;
-        }
-        .posicionfotos3{
-            grid-area: posicionfotos3;
-            list-style: none;
-            padding: 15%;
-            transition: width 3s;
-        }
-       
+    }
+    .posicionfotos2{
+        grid-area: posicionfotos2;
+        max-width: 80%;
+        align-content: center;
+        text-align: center;
+        transition: width 5s;
+        padding-left: 30%;
+        padding-top: 10%;
+        
+    }
+    .posicionfotos3{
+        grid-area: posicionfotos3;
+        max-width: 80%;
+        align-content: center;
+        text-align: center;
+        padding-left: 30%;
+        transition: width 5s;
+        padding-top: 10%;
+        
+        
+        
+    }
+    
+    .posicionfotos1:hover{
+        grid-area: posicionfotos1;
+        list-style: none;
+        width: 75%;
+    }
+    .posicionfotos2:hover{
+        grid-area: posicionfotos2;
+        list-style: none;
+        width: 75%;
+    }
+    .posicionfotos3:hover{
+        grid-area: posicionfotos3;
+        list-style: none;
+        width: 75%;
+    }
+    .cerveza1{
+        list-style: none;
+        grid-area: posicionfotos1;
+        padding: 5%;
+        font-size:calc(10px + #{$width1});
+    
+    
+    }
+    .cerveza2{
+        list-style: none;
+        grid-area: posicionfotos2;
+        padding: 5%;
+        font-size:calc(10px + #{$width1});
+    
+    
+    }
+    .cerveza3{
+        list-style: none;
+        grid-area: posicionfotos3;
+        padding: 5%;
+        font-size:calc(10px + #{$width1});
+    
+    }
+}
+@include media (md) {
+   
+    .padre{
+        
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+        font-family: quicksand;
+        color: white;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+        grid-template-areas: 
+        "posicionfotos1 posicionfotos2 posicionfotos3"
+        "footer footer footer"
+        ;
+    }
+    .posicionfotos1{
+        grid-area: posicionfotos1;
+        list-style: none;
+        transition: width 3s;
+        padding: 5%;
+        align-content: center;
+        text-align: center;
+        max-width: 100%;
+
+    }
+    .posicionfotos2{
+        grid-area: posicionfotos2;
+        list-style: none;
+        padding: 5%;
+        transition: width 3s;
+        align-content: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    .posicionfotos3{
+        grid-area: posicionfotos3;
+        list-style: none;
+        padding: 5%;
+        transition: width 3s;
+        align-content: center;
+        text-align: center;
+        max-width: 100%;
+    }
+    .posicionfotos1:hover{
+        grid-area: posicionfotos1;
+        list-style: none;
+        width: 95%;
+    }
+    .posicionfotos2:hover{
+        grid-area: posicionfotos2;
+        list-style: none;
+        width: 95%;
+    }
+    .posicionfotos3:hover{
+        grid-area: posicionfotos3;
+        list-style: none;
+        width: 95%;
+    }
+    .cerveza1{
+        list-style: none;
+        grid-area: posicionfotos1;
+        padding: 10%;
+        font-size:calc(10px + #{$width1});
+    
+    
+    }
+    .cerveza2{
+        list-style: none;
+        grid-area: posicionfotos2;
+        padding: 10%;
+        font-size:calc(10px + #{$width1});
+    
+    
+    }
+    .cerveza3{
+        list-style: none;
+        grid-area: posicionfotos3;
+        padding: 10%;
+        font-size:calc(10px + #{$width1});
+    
+    }
+}
+@include media (xs) {
+   
+    .padre{
+        
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, auto);
+        gap: 10px;
+        grid-template-areas: 
+        "posicionfotos1"
+        "posicionfotos2"
+        "posicionfotos3"
+        "footer";
+    }
+    .posicionfotos1{
+        grid-area: posicionfotos1;
+        max-width: 80%;
+        align-content: center;
+        text-align: center;
+        padding: 30%;
+        transition: width 2s;
+        
+    }
+    .posicionfotos2{
+        grid-area: posicionfotos2;
+        max-width: 80%;
+        align-content: center;
+        text-align: center;
+        padding: 30%;
+        transition: width 2s;
+        
+    }
+    .posicionfotos3{
+        grid-area: posicionfotos3;
+        max-width: 80%;
+        align-content: center;
+        text-align: center;
+        padding: 30%;
+        transition: width 2s;
+        
+        
+    }
+    
+    .posicionfotos1:hover{
+        grid-area: posicionfotos1;
+        width: 70%;
+    }
+    .posicionfotos2:hover{
+        grid-area: posicionfotos2;
+        list-style: none;
+        width: 70%;
+    }
+    .posicionfotos3:hover{
+        grid-area: posicionfotos3;
+        list-style: none;
+        width: 70%;
+    }
+    .cerveza1{
+        list-style: none;
+        grid-area: posicionfotos1;
+        padding: 10%;
+        font-size:calc(8px + #{$width1});
+    
+    
+    }
+    .cerveza2{
+        list-style: none;
+        grid-area: posicionfotos2;
+        padding: 10%;
+        font-size:calc(8px + #{$width1});
+    
+    
+    }
+    .cerveza3{
+        list-style: none;
+        grid-area: posicionfotos3;
+        padding: 10%;
+        font-size:calc(8px + #{$width1});
+    
+    }
+   
 }
 
 @import "footer";
