@@ -51,7 +51,9 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 10px;
-  grid-template-areas: "posicionfotos1 posicionfotos2 posicionfotos3" "footer footer footer"; }
+  grid-template-areas: 
+  "posicionfotos1 posicionfotos2 posicionfotos3"
+  "footer footer footer"; }
 
 h2 {
   font-family: 'Pacifico', cursive;
@@ -71,7 +73,11 @@ h2 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, auto);
     gap: 10px;
-    grid-template-areas: "posicionfotos1" "posicionfotos2" "posicionfotos3" "footer"; }
+    grid-template-areas: 
+    "posicionfotos1"
+    "posicionfotos2"
+    "posicionfotos3"
+    "footer"; }
   .posicionfotos1 {
     grid-area: posicionfotos1;
     max-width: 80%;
@@ -136,7 +142,9 @@ h2 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 10px;
-    grid-template-areas: "posicionfotos1 posicionfotos2 posicionfotos3" "footer footer footer"; }
+    grid-template-areas: 
+    "posicionfotos1 posicionfotos2 posicionfotos3"
+    "footer footer footer"; }
   .posicionfotos1 {
     grid-area: posicionfotos1;
     list-style: none;
@@ -194,7 +202,11 @@ h2 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, auto);
     gap: 10px;
-    grid-template-areas: "posicionfotos1" "posicionfotos2" "posicionfotos3" "footer"; }
+    grid-template-areas: 
+    "posicionfotos1"
+    "posicionfotos2"
+    "posicionfotos3"
+    "footer"; }
   .posicionfotos1 {
     grid-area: posicionfotos1;
     max-width: 80%;
