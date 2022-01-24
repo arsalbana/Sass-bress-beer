@@ -14,18 +14,41 @@ body{
     margin: 10px auto;
     font-family: quicksand;
     color: white;
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(255, 255, 255);
     display: grid;
-    grid-template-columns: repeat(1, 1 fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(3, 1 fr);
+    grid-template-rows: repeat(3, auto);
     gap: 10px;
     grid-template-areas: 
-    "gradientes"
-    "footer"
+    "posicionfotos3 posicionfotos3 texto"
+    "gradientes gradientes gradientes"
+    "footer footer footer"
     ;
 }
+.posicionfotos3{
+    grid-area: posicionfotos3;
+    padding-top: 20%;
+    
+}
+.texto{
+    grid-area: texto;
+    font-family: quicksand;
+    color: #0f001b;
+    font-size:calc(8px + #{$width2});
+    text-align: center;
+    padding-top: 70%;
+    padding-left: 20%;
+    padding-right: 20%;
+
+
+}
+
 .gradientes{
     grid-area: gradientes;
+    align-items: center;
+    align-content: center;
+    padding: 10%;
+    background-color: rgb(189, 189, 189);
 }
 body{
     background-color: #0f001b;
@@ -59,15 +82,19 @@ main{
     padding-bottom: 5%;
     align-content: center;
     box-sizing: content-box;
-    
     button{
         width: 180px;
         height: 30px;
-        border-radius: 16px;
         border: 0em;
+        background-color: rgb(53, 151, 204);
+        border-radius: 16px;
     }
+
     
-    
+}
+input{
+    border-style: none;
+
 }
 
 li{
@@ -84,9 +111,7 @@ li{
     height: auto;
 
 }
-.gradientes{
-    background-image: radial-gradient(rgb(253, 241, 208), rgb(105, 60, 18));
-}
+
 .terminos{
     font-family: 'Quicksand', sans-serif;
     font-size:calc(3px + #{$width2});
