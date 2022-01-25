@@ -59,7 +59,7 @@ h2 {
   text-decoration: none;
   color: #0f001b; }
 
-@media (min-width: 360px) and (max-width: 760px) {
+@media (min-width: 200px) and (max-width: 760px) {
   .padre {
     width: 100%;
     height: 100%;
@@ -74,40 +74,40 @@ h2 {
     grid-template-areas: "posicionfotos1" "posicionfotos2" "footer"; }
   .posicionfotos1 {
     grid-area: posicionfotos1;
-    max-width: 80%;
+    width: 80%;
     align-content: center;
     text-align: center;
-    transition: width 5s;
-    padding-left: 30%;
-    padding-top: 10%; }
+    transition: width 0.75s;
+    padding-top: 10%;
+    margin: auto; }
   .posicionfotos2 {
     grid-area: posicionfotos2;
-    max-width: 80%;
+    width: 80%;
     align-content: center;
     text-align: center;
-    transition: width 5s;
-    padding-left: 30%;
-    padding-top: 10%; }
+    transition: width 0.75s;
+    padding-top: 10%;
+    margin: auto; }
   .posicionfotos1:hover {
     grid-area: posicionfotos1;
     list-style: none;
-    width: 75%; }
+    width: 85%; }
   .posicionfotos2:hover {
     grid-area: posicionfotos2;
     list-style: none;
-    width: 75%; }
+    width: 85%; }
   .cerveza1 {
     list-style: none;
     grid-area: posicionfotos1;
     padding: 5%;
-    font-size: calc(10px + 0.8vw); }
+    font-size: calc(10px + 1.5vw); }
   .cerveza2 {
     list-style: none;
     grid-area: posicionfotos2;
     padding: 5%;
-    font-size: calc(10px + 0.8vw); } }
+    font-size: calc(10px + 1.5vw); } }
 
-@media (min-width: 760px) and (max-width: 1360px) {
+@media (min-width: 760px) and (max-width: 1600px) {
   .padre {
     width: 100%;
     height: 100%;
@@ -127,23 +127,25 @@ h2 {
     padding: 5%;
     align-content: center;
     text-align: center;
-    max-width: 100%; }
+    width: 100%;
+    margin: auto; }
   .posicionfotos2 {
     grid-area: posicionfotos2;
     list-style: none;
     padding: 5%;
-    transition: width 3s;
+    transition: width 0.75s;
     align-content: center;
     text-align: center;
-    max-width: 100%; }
+    width: 100%;
+    margin: auto; }
   .posicionfotos1:hover {
     grid-area: posicionfotos1;
     list-style: none;
-    width: 95%; }
+    width: 105%; }
   .posicionfotos2:hover {
     grid-area: posicionfotos2;
     list-style: none;
-    width: 95%; }
+    width: 105%; }
   .cerveza1 {
     list-style: none;
     grid-area: posicionfotos1;
@@ -155,7 +157,7 @@ h2 {
     padding: 10%;
     font-size: calc(10px + 0.8vw); } }
 
-@media (min-width: 120px) and (max-width: 360px) {
+@media (max-width: 200px) {
   .padre {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -163,25 +165,27 @@ h2 {
     grid-template-areas: "posicionfotos1" "posicionfotos2" "footer"; }
   .posicionfotos1 {
     grid-area: posicionfotos1;
-    max-width: 80%;
+    width: 100%;
     align-content: center;
     text-align: center;
     padding: 30%;
-    transition: width 2s; }
+    transition: width 0.75s;
+    margin: auto; }
   .posicionfotos2 {
     grid-area: posicionfotos2;
-    max-width: 80%;
+    width: 100%;
     align-content: center;
     text-align: center;
     padding: 30%;
-    transition: width 2s; }
+    transition: width 0.75s;
+    margin: auto; }
   .posicionfotos1:hover {
     grid-area: posicionfotos1;
-    width: 70%; }
+    width: 105%; }
   .posicionfotos2:hover {
     grid-area: posicionfotos2;
     list-style: none;
-    width: 70%; }
+    width: 105%; }
   .cerveza1 {
     list-style: none;
     grid-area: posicionfotos1;

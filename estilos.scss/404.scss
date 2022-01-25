@@ -8,6 +8,7 @@ body{
 
 .alinear{
     width: 100%;
+    height: auto;
     margin: 10px auto;
     background-color: white;
     display: grid;
@@ -15,29 +16,34 @@ body{
     grid-template-rows: repeat(2,auto);
     gap: 10px;
     grid-template-areas: 
-    "redondo engrilla"
+    "engrilla redondo"
     "footer footer";
-        .redondo{
-        grid-area: redondo;
-        padding: 5%;
-        text-decoration: none;
-
-        }
+        
         .engrilla{
             .textop{
                 
-                font-size: calc(12px + #{$width2});
+                font-size: calc(14px + #{$width2});
                 font-family: 'Quicksand';
                 text-align: center;
-                padding-top: 20%;
+                color: #0f001b;
                 
             }
             grid-area: engrilla;
-            padding: 5%;
-            
-            
-
-            
+            padding-top: 30%;
+            .lista{
+                font-size: calc(14px + #{$width});
+                font-family: 'Quicksand';
+                text-align: center;
+                color: #0f001b;
+            }
+                
         }
-}
+        .redondo{
+            grid-area: redondo;
+            padding: 5%;
+            text-decoration: none;
+    
+        }
+    }
+        
 @import "footer";

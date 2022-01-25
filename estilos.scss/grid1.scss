@@ -45,20 +45,20 @@ h2{
     }
     .posicionfotos1{
         grid-area: posicionfotos1;
-        max-width: 70%;
+        width: 70%;
         align-content: center;
         text-align: center;
-        transition: width 5s;
+        transition: width 0.8s;
         padding-top: 10%;
         margin: auto;
         
     }
     .posicionfotos2{
         grid-area: posicionfotos2;
-        max-width: 70%;
+        width: 70%;
         align-content: center;
         text-align: center;
-        transition: width 5s;
+        transition: width 0.8s;
         padding-top: 10%;
         margin: auto;
         
@@ -66,10 +66,10 @@ h2{
     }
     .posicionfotos3{
         grid-area: posicionfotos3;
-        max-width: 70%;
+        width: 70%;
         align-content: center;
         text-align: center;
-        transition: width 5s;
+        transition: width 0.8s;
         padding-top: 10%;
         margin: auto;
         
@@ -81,17 +81,17 @@ h2{
     .posicionfotos1:hover{
         grid-area: posicionfotos1;
         list-style: none;
-        width: 65%;
+        width: 75%;
     }
     .posicionfotos2:hover{
         grid-area: posicionfotos2;
         list-style: none;
-        width: 65%;
+        width: 75%;
     }
     .posicionfotos3:hover{
         grid-area: posicionfotos3;
         list-style: none;
-        width: 65%;
+        width: 75%;
     }
     .cerveza1{
         list-style: none;
@@ -139,45 +139,45 @@ h2{
     .posicionfotos1{
         grid-area: posicionfotos1;
         list-style: none;
-        transition: width 3s;
+        transition: width 0.8s;
         padding: 5%;
         align-content: center;
         text-align: center;
-        max-width: 100%;
+        width: 100%;
 
     }
     .posicionfotos2{
         grid-area: posicionfotos2;
         list-style: none;
         padding: 5%;
-        transition: width 3s;
+        transition: width 0.8s;
         align-content: center;
         text-align: center;
-        max-width: 100%;
+        width: 100%;
     }
     .posicionfotos3{
         grid-area: posicionfotos3;
         list-style: none;
         padding: 5%;
-        transition: width 3s;
+        transition: width 0.8s;
         align-content: center;
         text-align: center;
-        max-width: 100%;
+        width: 100%;
     }
     .posicionfotos1:hover{
         grid-area: posicionfotos1;
         list-style: none;
-        width: 95%;
+        width: 105%;
     }
     .posicionfotos2:hover{
         grid-area: posicionfotos2;
         list-style: none;
-        width: 95%;
+        width: 105%;
     }
     .posicionfotos3:hover{
         grid-area: posicionfotos3;
         list-style: none;
-        width: 95%;
+        width: 105%;
     }
     .cerveza1{
         list-style: none;
@@ -218,46 +218,47 @@ h2{
     }
     .posicionfotos1{
         grid-area: posicionfotos1;
-        max-width: 100%;
+        width: 100%;
         align-content: center;
         text-align: center;
         padding: 30%;
-        transition: width 2s;
+        transition: width 0.8s;
         
     }
     .posicionfotos2{
         grid-area: posicionfotos2;
-        max-width: 100%;
+        width: 100%;
         align-content: center;
         text-align: center;
         padding: 30%;
-        transition: width 2s;
+        transition: width 0.8s;
         
     }
     .posicionfotos3{
         grid-area: posicionfotos3;
-        max-width: 100%;
+        width: 100%;
         align-content: center;
         text-align: center;
         padding: 30%;
-        transition: width 2s;
+        transition: width 0.8s;
         
         
     }
     
     .posicionfotos1:hover{
         grid-area: posicionfotos1;
-        width: 95%;
+        width: 105%;
+        list-style: none;
     }
     .posicionfotos2:hover{
         grid-area: posicionfotos2;
         list-style: none;
-        width: 95%;
+        width: 105%;
     }
     .posicionfotos3:hover{
         grid-area: posicionfotos3;
         list-style: none;
-        width: 95%;
+        width: 105%;
     }
     .cerveza1{
         list-style: none;

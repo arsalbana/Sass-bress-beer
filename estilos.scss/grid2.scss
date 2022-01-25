@@ -44,41 +44,41 @@ h2{
     }
     .posicionfotos1{
         grid-area: posicionfotos1;
-        max-width: 80%;
+        width: 80%;
         align-content: center;
         text-align: center;
-        transition: width 5s;
-        padding-left: 30%;
+        transition: width 0.75s;
         padding-top: 10%;
+        margin: auto;
         
     }
     .posicionfotos2{
         grid-area: posicionfotos2;
-        max-width: 80%;
+        width: 80%;
         align-content: center;
         text-align: center;
-        transition: width 5s;
-        padding-left: 30%;
+        transition: width 0.75s;
         padding-top: 10%;
+        margin: auto;
         
     }
    
     .posicionfotos1:hover{
         grid-area: posicionfotos1;
         list-style: none;
-        width: 75%;
+        width: 85%;
     }
     .posicionfotos2:hover{
         grid-area: posicionfotos2;
         list-style: none;
-        width: 75%;
+        width: 85%;
     }
     
     .cerveza1{
         list-style: none;
         grid-area: posicionfotos1;
         padding: 5%;
-        font-size:calc(10px + #{$width1});
+        font-size:calc(10px + #{$width});
     
     
     }
@@ -86,7 +86,7 @@ h2{
         list-style: none;
         grid-area: posicionfotos2;
         padding: 5%;
-        font-size:calc(10px + #{$width1});
+        font-size:calc(10px + #{$width});
     
     
     }
@@ -118,28 +118,30 @@ h2{
         padding: 5%;
         align-content: center;
         text-align: center;
-        max-width: 100%;
+        width: 100%;
+        margin: auto;
 
     }
     .posicionfotos2{
         grid-area: posicionfotos2;
         list-style: none;
         padding: 5%;
-        transition: width 3s;
+        transition: width 0.75s;
         align-content: center;
         text-align: center;
-        max-width: 100%;
+        width: 100%;
+        margin: auto;
     }
     
     .posicionfotos1:hover{
         grid-area: posicionfotos1;
         list-style: none;
-        width: 95%;
+        width: 105%;
     }
     .posicionfotos2:hover{
         grid-area: posicionfotos2;
         list-style: none;
-        width: 95%;
+        width: 105%;
     }
   
     .cerveza1{
@@ -174,32 +176,34 @@ h2{
     }
     .posicionfotos1{
         grid-area: posicionfotos1;
-        max-width: 80%;
+        width: 100%;
         align-content: center;
         text-align: center;
         padding: 30%;
-        transition: width 2s;
+        transition: width 0.75s;
+        margin: auto;
         
     }
     .posicionfotos2{
         grid-area: posicionfotos2;
-        max-width: 80%;
+        width: 100%;
         align-content: center;
         text-align: center;
         padding: 30%;
-        transition: width 2s;
+        transition: width 0.75s;
+        margin: auto;
         
     }
   
     
     .posicionfotos1:hover{
         grid-area: posicionfotos1;
-        width: 70%;
+        width: 105%;
     }
     .posicionfotos2:hover{
         grid-area: posicionfotos2;
         list-style: none;
-        width: 70%;
+        width: 105%;
     }
   
     .cerveza1{
