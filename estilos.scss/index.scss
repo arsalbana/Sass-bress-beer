@@ -33,16 +33,19 @@ h2{
 
 .logo{
     
-    margin: auto;
-    position:absolute; top: 40%; bottom: 60%; left: 48%;
-    height:calc(60px + #{$width});
+    
+    position:absolute; top: 40%; bottom: 60%; left: 50%; right: 50%;
+    height:calc(48px + #{$width});
     align-content: center;
+    margin: 0;
 
 }
 .frase{
     font-display: inline;
     display: inline-block;
-    position: absolute; top: 55%; bottom: 45%; left: 47%;
+    position: absolute; top: 55%; bottom: 45%; left: 50%;
+    margin: 0;
+    text-align: center;
 
 }
 .enrow{
@@ -50,7 +53,9 @@ h2{
     font-family: quicksand;
     color: #e5e5e5;
     align-content: space-around;
-    position: absolute; top: 72%; bottom: 28%; left: 50%;
+    position: absolute; top: 72%; bottom: 28%; left: 55%;
+    margin: 0;
+    align-items: center;
    
 }
 

@@ -28,13 +28,14 @@ h2 {
   font-size: calc(12px + 1.5vw); }
 
 .logo {
-  margin: auto;
   position: absolute;
   top: 40%;
   bottom: 60%;
-  left: 48%;
-  height: calc(60px + 1.5vw);
-  align-content: center; }
+  left: 50%;
+  right: 50%;
+  height: calc(48px + 1.5vw);
+  align-content: center;
+  margin: 0; }
 
 .frase {
   font-display: inline;
@@ -42,7 +43,9 @@ h2 {
   position: absolute;
   top: 55%;
   bottom: 45%;
-  left: 47%; }
+  left: 50%;
+  margin: 0;
+  text-align: center; }
 
 .enrow {
   display: inline-block;
@@ -52,7 +55,9 @@ h2 {
   position: absolute;
   top: 72%;
   bottom: 28%;
-  left: 50%; }
+  left: 55%;
+  margin: 0;
+  align-items: center; }
 
 .letra {
   font-family: quicksand;
