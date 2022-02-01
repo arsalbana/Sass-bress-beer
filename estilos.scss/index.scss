@@ -1,4 +1,5 @@
 @import "variables";
+@import "extendburbujas";
 @import "reseteo";
 
 .pantalla{
@@ -58,7 +59,7 @@
                     font-family: quicksand;
                     color: #e5e5e5;
                     text-decoration: none;
-                    font-size: 2em;
+                    font-size: 1em;
                     
                 }
                 
@@ -70,247 +71,183 @@
     }
     
 }
+  
+
 .burbuja{
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .3;
-    position: absolute;
-    bottom: 0;
     left: 5%;
     animation: burbujas 11s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja1{
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 55%;
     animation: burbujas 9s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja2{
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .2;
-    position: absolute;
-    bottom: 0;
     left: 0%;
     animation: burbujas 10s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja3{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 75%;
     animation: burbujas 8s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja4{
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .7;
-    position: absolute;
-    bottom: 0;
     left: 50%;
     animation: burbujas 5s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja5{
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 30%;
     animation: burbujas 7s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja6{
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .2;
-    position: absolute;
-    bottom: 0;
     left: 40%;
     animation: burbujas 4s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja7{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 90%;
     animation: burbujas 7s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja8{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .9;
-    position: absolute;
-    bottom: 0;
     left: 80%;
     animation: burbujas 8s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja9{
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 65%;
     animation: burbujas 5s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja10{
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .7;
-    position: absolute;
-    bottom: 0;
     left: 22%;
     animation: burbujas 6s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja11{
     width: 40px;
     height: 40px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .3;
-    position: absolute;
-    bottom: 0;
     left: 27%;
     animation: burbujas 9s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja12{
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 65%;
     animation: burbujas 8s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja13{
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .2;
-    position: absolute;
-    bottom: 0;
     left: 12%;
     animation: burbujas 8s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja14{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 68%;
     animation: burbujas 5s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja15{
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .7;
-    position: absolute;
-    bottom: 0;
     left: 49%;
     animation: burbujas 4s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja16{
     width: 20px;
     height: 20px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 94%;
     animation: burbujas 7s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja17{
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .2;
-    position: absolute;
-    bottom: 0;
     left: 17%;
     animation: burbujas 4s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja18{
     width: 30px;
     height: 30px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 33%;
     animation: burbujas 7s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja19{
     width: 50px;
     height: 50px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .9;
-    position: absolute;
-    bottom: 0;
     left: 54%;
     animation: burbujas 5s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja20{
     width: 10px;
     height: 10px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .5;
-    position: absolute;
-    bottom: 0;
     left: 63%;
     animation: burbujas 5s linear infinite;
+    @extend %burbuja0;
 }
 .burbuja21{
     width: 15px;
     height: 15px;
-    border-radius: 50%;
-    background-color: rgb(58, 26, 1);
     opacity: .7;
-    position: absolute;
-    bottom: 0;
     left: 76%;
     animation: burbujas 6s linear infinite;
+    @extend %burbuja0;
 }
 
 
@@ -318,7 +255,7 @@
 @keyframes burbujas{
     0%{
         bottom: 0;
-        opacity: 0;
+        opacity: .15;
     
     }
     50%{
@@ -327,7 +264,7 @@
     }
     100%{
         bottom: 100vh;
-        opacity: 0;
+        opacity: .15;
     }
 
 }

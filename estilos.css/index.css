@@ -1,3 +1,9 @@
+.burbuja, .burbuja1, .burbuja2, .burbuja3, .burbuja4, .burbuja5, .burbuja6, .burbuja7, .burbuja8, .burbuja9, .burbuja10, .burbuja11, .burbuja12, .burbuja13, .burbuja14, .burbuja15, .burbuja16, .burbuja17, .burbuja18, .burbuja19, .burbuja20, .burbuja21 {
+  bottom: 0;
+  position: absolute;
+  background-color: #3a1a01;
+  border-radius: 50%; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -52,256 +58,168 @@
         font-family: quicksand;
         color: #e5e5e5;
         text-decoration: none;
-        font-size: 2em; }
+        font-size: 1em; }
 
 .burbuja {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .3;
-  position: absolute;
-  bottom: 0;
   left: 5%;
   animation: burbujas 11s linear infinite; }
 
 .burbuja1 {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 55%;
   animation: burbujas 9s linear infinite; }
 
 .burbuja2 {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .2;
-  position: absolute;
-  bottom: 0;
   left: 0%;
   animation: burbujas 10s linear infinite; }
 
 .burbuja3 {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 75%;
   animation: burbujas 8s linear infinite; }
 
 .burbuja4 {
   width: 15px;
   height: 15px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .7;
-  position: absolute;
-  bottom: 0;
   left: 50%;
   animation: burbujas 5s linear infinite; }
 
 .burbuja5 {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 30%;
   animation: burbujas 7s linear infinite; }
 
 .burbuja6 {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .2;
-  position: absolute;
-  bottom: 0;
   left: 40%;
   animation: burbujas 4s linear infinite; }
 
 .burbuja7 {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 90%;
   animation: burbujas 7s linear infinite; }
 
 .burbuja8 {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .9;
-  position: absolute;
-  bottom: 0;
   left: 80%;
   animation: burbujas 8s linear infinite; }
 
 .burbuja9 {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 65%;
   animation: burbujas 5s linear infinite; }
 
 .burbuja10 {
   width: 15px;
   height: 15px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .7;
-  position: absolute;
-  bottom: 0;
   left: 22%;
   animation: burbujas 6s linear infinite; }
 
 .burbuja11 {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .3;
-  position: absolute;
-  bottom: 0;
   left: 27%;
   animation: burbujas 9s linear infinite; }
 
 .burbuja12 {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 65%;
   animation: burbujas 8s linear infinite; }
 
 .burbuja13 {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .2;
-  position: absolute;
-  bottom: 0;
   left: 12%;
   animation: burbujas 8s linear infinite; }
 
 .burbuja14 {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 68%;
   animation: burbujas 5s linear infinite; }
 
 .burbuja15 {
   width: 15px;
   height: 15px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .7;
-  position: absolute;
-  bottom: 0;
   left: 49%;
   animation: burbujas 4s linear infinite; }
 
 .burbuja16 {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 94%;
   animation: burbujas 7s linear infinite; }
 
 .burbuja17 {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .2;
-  position: absolute;
-  bottom: 0;
   left: 17%;
   animation: burbujas 4s linear infinite; }
 
 .burbuja18 {
   width: 30px;
   height: 30px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 33%;
   animation: burbujas 7s linear infinite; }
 
 .burbuja19 {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .9;
-  position: absolute;
-  bottom: 0;
   left: 54%;
   animation: burbujas 5s linear infinite; }
 
 .burbuja20 {
   width: 10px;
   height: 10px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .5;
-  position: absolute;
-  bottom: 0;
   left: 63%;
   animation: burbujas 5s linear infinite; }
 
 .burbuja21 {
   width: 15px;
   height: 15px;
-  border-radius: 50%;
-  background-color: #3a1a01;
   opacity: .7;
-  position: absolute;
-  bottom: 0;
   left: 76%;
   animation: burbujas 6s linear infinite; }
 
 @keyframes burbujas {
   0% {
     bottom: 0;
-    opacity: 0; }
+    opacity: .15; }
   50% {
     opacity: .4; }
   100% {
     bottom: 100vh;
-    opacity: 0; } }
+    opacity: .15; } }
