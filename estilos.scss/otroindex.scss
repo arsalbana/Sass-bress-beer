@@ -1,55 +1,45 @@
 @import "variables";
 @import "reseteo";
-
+li{
+    list-style: none;
+    
+    
+}
 .pantalla{
-        
     .ancho{
-        max-height: 100%;    
+        max-height: 40%;
     }
     .sobref{
         
-        margin: 0px auto;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        
+    
         .logo{
-            position:absolute; top: 40%; bottom: 60%; 
+            position:absolute; top: 40%; bottom: 60%; left: 50%; right: 50%;
             align-content: center;
-            width: 35%;
-            padding-bottom: 15%;
-            margin: auto;
-            
+            width: 100%;
         
         }
         .frase{
-            margin: auto;
             font-display: inline;
             display: inline-block;
-            position: absolute; top: 55%; bottom: 45%;
+            position: absolute; top: 55%; bottom: 45%; left: 50%;
             text-align: center;
             h2{
                 font-family: pacifico;
                 font-size:calc(12px + #{$width});
             
             }
-            
         
         }
         .enrow{
-            
-            margin: auto;
             display: inline-block;
             font-family: quicksand;
             color: #e5e5e5;
             align-content: space-around;
-            position: absolute; top: 72%; bottom: 28%; 
+            position: absolute; top: 72%; bottom: 28%; left: 55%;
             align-items: center;
             button{
-                width: 7vw;
-                height: 7vw;
+                width: 3rem;
+                height: 3rem;
                 color: #0f001b;
                 background-color: #0f001b;
                 font-family: quicksand;
@@ -58,7 +48,7 @@
                     font-family: quicksand;
                     color: #e5e5e5;
                     text-decoration: none;
-                    font-size:calc(8px + #{$width});
+                    font-size:calc(8px + #{$width2});
                     
                 }
                 
@@ -332,6 +322,7 @@
 
 }
     
+
 
 
 
