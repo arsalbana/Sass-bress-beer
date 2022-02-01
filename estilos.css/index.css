@@ -16,23 +16,24 @@ button {
   border-radius: 12px; }
 
 .ancho {
-  max-width: 200%; }
+  max-height: 200%; }
 
 h3 {
   font-family: quicksand;
-  font-size: 1em;
+  font-size: calc(8px + 1vw);
   color: #e5e5e5; }
 
 h2 {
   font-family: pacifico;
-  font-size: 1.5em; }
+  font-size: calc(12px + 1.5vw); }
 
 .logo {
+  margin: auto;
   position: absolute;
   top: 40%;
   bottom: 60%;
-  left: 44%;
-  height: 13%;
+  left: 48%;
+  height: calc(60px + 1.5vw);
   align-content: center; }
 
 .frase {

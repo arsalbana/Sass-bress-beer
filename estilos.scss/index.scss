@@ -17,23 +17,25 @@ button{
 
 }
 .ancho{
-    max-width: 200%;
+    max-height: 200%;
 }
 h3{
     font-family: quicksand;
-    font-size: 1em;
+    font-size:calc(8px + #{$width2});
     color: #e5e5e5;
 
 }
 h2{
     font-family: pacifico;
-    font-size: 1.5em;
+    font-size:calc(12px + #{$width});
 
 }
 
 .logo{
-    position:absolute; top: 40%; bottom: 60%; left: 44%;
-    height: 13%;
+    
+    margin: auto;
+    position:absolute; top: 40%; bottom: 60%; left: 48%;
+    height:calc(60px + #{$width});
     align-content: center;
 
 }
