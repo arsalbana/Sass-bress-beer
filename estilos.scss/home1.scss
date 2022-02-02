@@ -1,5 +1,6 @@
 @import "variables";
 @import "reseteo";
+@import "mixin0";
 @import "navbar";
 body{
     background-color: #0f001b;
@@ -8,6 +9,7 @@ body{
 .imggrande{
     width: 100%;
 }
+
 .padre{
     width: 100%;
     height: 100%;
@@ -23,100 +25,308 @@ body{
     "gradientes"
     "footer"
     ;
+
+    .gradientes{
+        background-image: radial-gradient(rgb(253, 241, 208), rgb(105, 60, 18));
+        grid-area: gradientes;
+        @include media (lg) {
+            h2{
+            
+                font-family: 'Pacifico', cursive;
+                font-size:calc(12px + #{$width2});
+                text-decoration: none;
+                color: #0f001b;
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            .inputtext{
+                
+                    input{
+                        width: 240px;
+                        height: 30px;
+                        border-radius: 10px;
+                        border: 0em;
+                    
+                    }
+                
+                h3{
+            
+                    font-family: 'Quicksand', sans-serif;
+                    font-size:calc(8px + #{$width2});
+                    text-decoration: none;
+                    color: #0f001b;
+                }
+            }
+            .button2{
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(8px + #{$width2});
+                padding-top: 5%;
+                padding-bottom: 5%;
+                align-content: center;
+                box-sizing: content-box;
+                
+                button{
+                    width: 240px;
+                    height: 30px;
+                    border-radius: 16px;
+                    border: 0em;
+                }
+                
+               
+                
+            }
+            .comentarios{
+                
+                input{
+                    width: 240px;
+                    height: 80px;
+                    border-radius: 10px;
+                    border: 0em;
+                }    
+                
+                font-kerning: auto;
+                box-sizing: content-box;
+                height: auto;
+                h3{
+            
+                    font-family: 'Quicksand', sans-serif;
+                    font-size:calc(8px + #{$width2});
+                    text-decoration: none;
+                    color: #0f001b;
+                }
+            
+            }
+            
+       
+        }
+        @include media (md) {
+            h2{
+            
+                font-family: 'Pacifico', cursive;
+                font-size:calc(12px + #{$width2});
+                text-decoration: none;
+                color: #0f001b;
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            .inputtext{
+                
+                    input{
+                        width: 240px;
+                        height: 30px;
+                        border-radius: 10px;
+                        border: 0em;
+                    
+                    }
+                
+                h3{
+            
+                    font-family: 'Quicksand', sans-serif;
+                    font-size:calc(8px + #{$width2});
+                    text-decoration: none;
+                    color: #0f001b;
+                }
+            }
+            .button2{
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(8px + #{$width2});
+                padding-top: 5%;
+                padding-bottom: 5%;
+                align-content: center;
+                box-sizing: content-box;
+                
+                button{
+                    width: 240px;
+                    height: 30px;
+                    border-radius: 16px;
+                    border: 0em;
+                }
+                
+               
+                
+            }
+            .comentarios{
+                
+                input{
+                    width: 240px;
+                    height: 80px;
+                    border-radius: 10px;
+                    border: 0em;
+                }    
+                
+                font-kerning: auto;
+                box-sizing: content-box;
+                height: auto;
+                h3{
+            
+                    font-family: 'Quicksand', sans-serif;
+                    font-size:calc(8px + #{$width2});
+                    text-decoration: none;
+                    color: #0f001b;
+                }
+            
+            }
+            
+       
+        }
+        @include media (sm) {
+            h2{
+            
+                font-family: 'Pacifico', cursive;
+                font-size:calc(12px + #{$width2});
+                text-decoration: none;
+                color: #0f001b;
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            .inputtext{
+                
+                input{
+                    width: 150px;
+                    height: 26px;
+                    border-radius: 6px;
+                    border: 0em;
+                }
+                
+                h3{
+            
+                    font-family: 'Quicksand', sans-serif;
+                    font-size:calc(8px + #{$width2});
+                    text-decoration: none;
+                    color: #0f001b;
+                }
+            }
+            .button2{
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(8px + #{$width2});
+                padding-top: 5%;
+                padding-bottom: 5%;
+                align-content: center;
+                box-sizing: content-box;
+                
+                button{
+                    width: 150px;
+                    height: 26px;
+                    border-radius: 12px;
+                    border: 0em;
+                }
+                
+               
+                
+            }
+            .comentarios{
+                
+                input{
+                    width: 150px;
+                    height: 50px;
+                    border-radius: 6px;
+                    border: 0em;
+                }   
+                
+                font-kerning: auto;
+                box-sizing: content-box;
+                height: auto;
+                h3{
+            
+                    font-family: 'Quicksand', sans-serif;
+                    font-size:calc(8px + #{$width2});
+                    text-decoration: none;
+                    color: #0f001b;
+                }
+            
+            }
+            
+       
+        }
+        @include media (xs) {
+            h2{
+            
+                font-family: 'Pacifico', cursive;
+                font-size:calc(12px + #{$width2});
+                text-decoration: none;
+                color: #0f001b;
+                padding-top: 5%;
+                padding-bottom: 5%;
+            }
+            .inputtext{
+                
+                input{
+                    width: 100px;
+                    height: 20px;
+                    border-radius: 2px;
+                    border: 0em;
+                }
+                
+                h3{
+            
+                    font-family: 'Quicksand', sans-serif;
+                    font-size:calc(8px + #{$width2});
+                    text-decoration: none;
+                    color: #0f001b;
+                }
+            }
+            .button2{
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(8px + #{$width2});
+                padding-top: 5%;
+                padding-bottom: 5%;
+                align-content: center;
+                box-sizing: content-box;
+                
+                button{
+                    width: 100px;
+                    height: 20px;
+                    border-radius: 8px;
+                    border: 0em;
+                }
+            }
+                
+               
+                
+            
+            .comentarios{
+                
+                input{
+                    width: 100px;
+                    height: 32px;
+                    border-radius: 2px;
+                    border: 0em;
+                }    
+                
+                font-kerning: auto;
+                box-sizing: content-box;
+                height: auto;
+                h3{
+            
+                    font-family: 'Quicksand', sans-serif;
+                    font-size:calc(8px + #{$width2});
+                    text-decoration: none;
+                    color: #0f001b;
+                }
+            
+            }
+            
+       
+        }
+    }
+
+
+
+
+
 }
-.gradientes{
-    grid-area: gradientes;
-}
+
 body{
     background-color: #0f001b;
     font-family: 'Quicksand', sans-serif;
 }
-h2{
-        
-    font-family: 'Pacifico', cursive;
-    font-size:calc(12px + #{$width2});
-    text-decoration: none;
-    color: #0f001b;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-h3{
-    
-    font-family: 'Quicksand', sans-serif;
-    font-size:calc(8px + #{$width2});
-    text-decoration: none;
-    color: #0f001b;
-}
+
+
 main{
     font-family: 'Quicksand', sans-serif;
     text-align: center;
     }
 
-.button2{
-    font-family: 'Quicksand', sans-serif;
-    font-size:calc(8px + #{$width2});
-    padding-top: 5%;
-    padding-bottom: 5%;
-    align-content: center;
-    box-sizing: content-box;
-    
-    button{
-        width: 180px;
-        height: 30px;
-        border-radius: 16px;
-        border: 0em;
-    }
-    
-    
-}
-
-li{
-    list-style: none;
-    display: inline-block;
-    justify-content: space-evenly;
-
-}
-.comentarios{
-    font-kerning: auto;
-
-    box-sizing: content-box;
-    
-    height: auto;
-
-}
-.gradientes{
-    background-image: radial-gradient(rgb(253, 241, 208), rgb(105, 60, 18));
-}
-.terminos{
-    font-family: 'Quicksand', sans-serif;
-    font-size:calc(3px + #{$width2});
-    text-decoration: none;
-    color: #0f001b;
-    padding-top: 3%;
-    
-       
-   
-    a:active{
-        text-decoration: none;
-        color: #0f001b;
-    }
-    a:link{
-        text-decoration: none;
-        color: #0f001b;
-    }
-    a:visited{
-        text-decoration: none;
-        color: #0f001b;
-    }
-    a:hover{
-        text-decoration: none;
-       color: rgb(95, 95, 95);
-   }
-
-}
-.espacioterminos{
-    padding: 10%;
-}
 
 
 @import "footer";

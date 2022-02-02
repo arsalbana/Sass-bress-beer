@@ -11,6 +11,10 @@
         @media (min-width: $breakpoint-sm) and (max-width: $breakpoint-md){ @content;}
         
     } 
+    @else if $media == lg{
+        @media (min-width: $breakpoint-md) and (max-width: $breakpoint-lg){ @content;}
+        
+    } 
 }
 
 

@@ -53,20 +53,23 @@ body {
   grid-template-areas: "engrilla redondo" "footer footer"; }
   .alinear .engrilla {
     grid-area: engrilla;
-    padding-top: 30%; }
+    padding: 10%; }
     .alinear .engrilla .textop {
-      font-size: calc(14px + 1vw);
+      font-size: calc(10px + 1vw);
       font-family: 'Quicksand';
       text-align: center;
-      color: #0f001b; }
+      color: #0f001b;
+      padding-bottom: 20%; }
     .alinear .engrilla .lista {
-      font-size: calc(14px + 1.5vw);
+      font-size: calc(10px + 1.5vw);
       font-family: 'Quicksand';
       text-align: center;
-      color: #0f001b; }
+      color: #0f001b;
+      padding-top: 15%;
+      text-decoration: none; }
   .alinear .redondo {
     grid-area: redondo;
-    padding: 5%;
+    padding-right: 5%;
     text-decoration: none; }
 
 .footer {

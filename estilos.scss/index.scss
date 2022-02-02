@@ -1,77 +1,298 @@
 @import "variables";
 @import "extendburbujas";
 @import "reseteo";
+@import "mixin0";
 
 .pantalla{
-        
-    .ancho{
-        max-height: 100%;    
-    }
-    .sobref{
-        
-        margin: 0px auto;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        
-        .logo{
-            position:absolute; top: 40%; bottom: 60%; 
-            align-content: center;
-            width: 35%;
-            padding-bottom: 15%;
-            margin: auto;
+    @include media (lg) {
             
-        
+        .ancho{
+            max-height: 100%;    
         }
-        .frase{
-            margin: auto;
-            font-display: inline;
-            display: inline-block;
-            position: absolute; top: 55%; bottom: 45%;
+        .sobref{
+        
+            margin: 0px auto;
             text-align: center;
-            h2{
-                font-family: pacifico;
-                font-size:calc(12px + #{$width});
-            
-            }
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        
+            .logo{
+                position:absolute; top: 40%; bottom: 60%; 
+                align-content: center;
+                width: 30%;
+                padding-bottom: 15%;
+                margin: auto;
             
         
-        }
-        .enrow{
+            }
+            .frase{
+                 margin: auto;
+                font-display: inline;
+                display: inline-block;
+                position: absolute; top: 55%; bottom: 45%;
+                text-align: center;
+                 h2{
+                    font-family: pacifico;
+                    font-size:calc(12px + #{$width});
             
-            margin: auto;
-            display: inline-block;
-            font-family: quicksand;
-            color: #e5e5e5;
-            align-content: space-around;
-            position: absolute; top: 72%; bottom: 28%; 
-            align-items: center;
-            button{
-                width: 7vw;
-                height: 7vw;
-                color: #0f001b;
-                background-color: #0f001b;
-                font-family: quicksand;
-                border-radius: 12px;
-                .letra{
-                    font-family: quicksand;
-                    color: #e5e5e5;
-                    text-decoration: none;
-                    font-size: 1em;
-                    
                 }
+            
+        
+            }
+            .enrow{
+            
+                margin: auto;
+                display: inline-block;
+                font-family: quicksand;
+                color: #e5e5e5;
+                align-content: space-around;
+                position: absolute; top: 72%; bottom: 28%; 
+                align-items: center;
+                button{
+                    width: 6vw;
+                    height: 6vw;
+                    color: #0f001b;
+                    background-color: #0f001b;
+                    font-family: quicksand;
+                    border-radius: 12px;
+                    padding: 5%;
+
+                    .letra{
+                        font-family: quicksand;
+                        color: #e5e5e5;
+                        text-decoration: none;
+                        font-size:calc(2px + #{$width3});
+                        margin: 1px auto;
+                        text-align: center;  
+                    
+                    }
                 
             
-            }
+                }
             
            
-        }
+            }
+         }
     }
     
+    @include media (md) {
+            
+        .ancho{
+            max-height: 100%;    
+        }
+        .sobref{
+        
+            margin: 0px auto;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        
+            .logo{
+                position:absolute; top: 40%; bottom: 60%; 
+                align-content: center;
+                width: 30%;
+                padding-bottom: 15%;
+                margin: auto;
+            
+        
+            }
+            .frase{
+                 margin: auto;
+                font-display: inline;
+                display: inline-block;
+                position: absolute; top: 55%; bottom: 45%;
+                text-align: center;
+                 h2{
+                    font-family: pacifico;
+                    font-size:calc(12px + #{$width});
+            
+                }
+            
+        
+            }
+            .enrow{
+            
+                margin: auto;
+                display: inline-block;
+                font-family: quicksand;
+                color: #e5e5e5;
+                align-content: space-around;
+                position: absolute; top: 72%; bottom: 28%; 
+                align-items: center;
+                button{
+                    width: 9vw;
+                    height: 9vw;
+                    color: #0f001b;
+                    background-color: #0f001b;
+                    font-family: quicksand;
+                    border-radius: 12px;
+                    padding: 5%;
+
+                    .letra{
+                        font-family: quicksand;
+                        color: #e5e5e5;
+                        text-decoration: none;
+                        font-size:calc(2px + #{$width3});
+                        margin: 1px auto;
+                        text-align: center;  
+                    
+                    }
+                
+            
+                }
+            
+           
+            }
+         }
+    }
+    @include media (sm) {
+        .ancho{
+            max-height: 100%;    
+        }
+        .sobref{
+        
+            margin: 0px auto;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        
+            .logo{
+                position:absolute; top: 40%; bottom: 60%; 
+                align-content: center;
+                width: 60%;
+                padding-bottom: 15%;
+                margin: auto;
+            
+        
+            }
+            .frase{
+                 margin: auto;
+                font-display: inline;
+                display: inline-block;
+                position: absolute; top: 55%; bottom: 45%;
+                text-align: center;
+                 h2{
+                    font-family: pacifico;
+                    font-size:calc(12px + #{$width});
+            
+                }
+            
+        
+            }
+            .enrow{
+            
+                margin: auto;
+                display: inline-block;
+                font-family: quicksand;
+                color: #e5e5e5;
+                align-content: space-around;
+                position: absolute; top: 72%; bottom: 28%; 
+                align-items: center;
+                button{
+                    width: 16vw;
+                    height: 16vw;
+                    color: #0f001b;
+                    background-color: #0f001b;
+                    font-family: quicksand;
+                    border-radius: 10px;
+                    padding: 5%;
+
+                    .letra{
+                        font-family: quicksand;
+                        color: #e5e5e5;
+                        text-decoration: none;
+                        font-size:calc(6px + #{$width3});
+                        margin: 1px auto;
+                        text-align: center;  
+                    
+                    }
+                
+            
+                }
+            
+           
+            }
+         }
+    }
+    @include media (xs) {
+        .ancho{
+            max-height: 100%;    
+        }
+        .sobref{
+        
+            margin: 0px auto;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        
+            .logo{
+                position:absolute; top: 40%; bottom: 60%; 
+                align-content: center;
+                width: 60%;
+                padding-bottom: 10%;
+                margin: auto;
+            
+        
+            }
+            .frase{
+                 margin: auto;
+                font-display: inline;
+                display: inline-block;
+                position: absolute; top: 55%; bottom: 45%;
+                text-align: center;
+                 h2{
+                    font-family: pacifico;
+                    font-size:calc(12px + #{$width});
+            
+                }
+            
+        
+            }
+            .enrow{
+            
+                margin: auto;
+                display: inline-block;
+                font-family: quicksand;
+                color: #e5e5e5;
+                align-content: space-around;
+                position: absolute; top: 72%; bottom: 28%; 
+                align-items: center;
+                button{
+                    width: 20vw;
+                    height: 20vw;
+                    color: #0f001b;
+                    background-color: #0f001b;
+                    font-family: quicksand;
+                    border-radius: 6px;
+                    padding: 5%;
+
+                    .letra{
+                        font-family: quicksand;
+                        color: #e5e5e5;
+                        text-decoration: none;
+                        font-size:calc(6px + #{$width3});
+                        margin: 1px auto;
+                        text-align: center;  
+                    
+                    }
+                
+            
+                }
+            
+           
+            }
+         }
+    }
+
 }
-  
 
 .burbuja{
     width: 40px;

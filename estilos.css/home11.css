@@ -56,79 +56,193 @@ body {
   grid-template-rows: repeat(2, auto);
   gap: 10px;
   grid-template-areas: "gradientes" "footer"; }
-
-.gradientes {
-  grid-area: gradientes; }
+  .padre .gradientes {
+    background-image: radial-gradient(#fdf1d0, #693c12);
+    grid-area: gradientes; }
+    @media (min-width: 760px) and (max-width: 1600px) {
+      .padre .gradientes h2 {
+        font-family: 'Pacifico', cursive;
+        font-size: calc(12px + 1vw);
+        text-decoration: none;
+        color: #0f001b;
+        padding-top: 5%;
+        padding-bottom: 5%; }
+      .padre .gradientes .inputtext input {
+        width: 240px;
+        height: 30px;
+        border-radius: 10px;
+        border: 0em; }
+      .padre .gradientes .inputtext h3 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 1vw);
+        text-decoration: none;
+        color: #0f001b; }
+      .padre .gradientes .button2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 1vw);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-content: center;
+        box-sizing: content-box; }
+        .padre .gradientes .button2 button {
+          width: 240px;
+          height: 30px;
+          border-radius: 16px;
+          border: 0em; }
+      .padre .gradientes .comentarios {
+        font-kerning: auto;
+        box-sizing: content-box;
+        height: auto; }
+        .padre .gradientes .comentarios input {
+          width: 240px;
+          height: 80px;
+          border-radius: 10px;
+          border: 0em; }
+        .padre .gradientes .comentarios h3 {
+          font-family: 'Quicksand', sans-serif;
+          font-size: calc(8px + 1vw);
+          text-decoration: none;
+          color: #0f001b; } }
+    @media (min-width: 360px) and (max-width: 760px) {
+      .padre .gradientes h2 {
+        font-family: 'Pacifico', cursive;
+        font-size: calc(12px + 1vw);
+        text-decoration: none;
+        color: #0f001b;
+        padding-top: 5%;
+        padding-bottom: 5%; }
+      .padre .gradientes .inputtext input {
+        width: 240px;
+        height: 30px;
+        border-radius: 10px;
+        border: 0em; }
+      .padre .gradientes .inputtext h3 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 1vw);
+        text-decoration: none;
+        color: #0f001b; }
+      .padre .gradientes .button2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 1vw);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-content: center;
+        box-sizing: content-box; }
+        .padre .gradientes .button2 button {
+          width: 240px;
+          height: 30px;
+          border-radius: 16px;
+          border: 0em; }
+      .padre .gradientes .comentarios {
+        font-kerning: auto;
+        box-sizing: content-box;
+        height: auto; }
+        .padre .gradientes .comentarios input {
+          width: 240px;
+          height: 80px;
+          border-radius: 10px;
+          border: 0em; }
+        .padre .gradientes .comentarios h3 {
+          font-family: 'Quicksand', sans-serif;
+          font-size: calc(8px + 1vw);
+          text-decoration: none;
+          color: #0f001b; } }
+    @media (min-width: 10px) and (max-width: 360px) {
+      .padre .gradientes h2 {
+        font-family: 'Pacifico', cursive;
+        font-size: calc(12px + 1vw);
+        text-decoration: none;
+        color: #0f001b;
+        padding-top: 5%;
+        padding-bottom: 5%; }
+      .padre .gradientes .inputtext input {
+        width: 150px;
+        height: 26px;
+        border-radius: 6px;
+        border: 0em; }
+      .padre .gradientes .inputtext h3 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 1vw);
+        text-decoration: none;
+        color: #0f001b; }
+      .padre .gradientes .button2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 1vw);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-content: center;
+        box-sizing: content-box; }
+        .padre .gradientes .button2 button {
+          width: 150px;
+          height: 26px;
+          border-radius: 12px;
+          border: 0em; }
+      .padre .gradientes .comentarios {
+        font-kerning: auto;
+        box-sizing: content-box;
+        height: auto; }
+        .padre .gradientes .comentarios input {
+          width: 150px;
+          height: 50px;
+          border-radius: 6px;
+          border: 0em; }
+        .padre .gradientes .comentarios h3 {
+          font-family: 'Quicksand', sans-serif;
+          font-size: calc(8px + 1vw);
+          text-decoration: none;
+          color: #0f001b; } }
+    @media (max-width: 10px) {
+      .padre .gradientes h2 {
+        font-family: 'Pacifico', cursive;
+        font-size: calc(12px + 1vw);
+        text-decoration: none;
+        color: #0f001b;
+        padding-top: 5%;
+        padding-bottom: 5%; }
+      .padre .gradientes .inputtext input {
+        width: 100px;
+        height: 20px;
+        border-radius: 2px;
+        border: 0em; }
+      .padre .gradientes .inputtext h3 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 1vw);
+        text-decoration: none;
+        color: #0f001b; }
+      .padre .gradientes .button2 {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 1vw);
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-content: center;
+        box-sizing: content-box; }
+        .padre .gradientes .button2 button {
+          width: 100px;
+          height: 20px;
+          border-radius: 8px;
+          border: 0em; }
+      .padre .gradientes .comentarios {
+        font-kerning: auto;
+        box-sizing: content-box;
+        height: auto; }
+        .padre .gradientes .comentarios input {
+          width: 100px;
+          height: 32px;
+          border-radius: 2px;
+          border: 0em; }
+        .padre .gradientes .comentarios h3 {
+          font-family: 'Quicksand', sans-serif;
+          font-size: calc(8px + 1vw);
+          text-decoration: none;
+          color: #0f001b; } }
 
 body {
   background-color: #0f001b;
   font-family: 'Quicksand', sans-serif; }
 
-h2 {
-  font-family: 'Pacifico', cursive;
-  font-size: calc(12px + 1vw);
-  text-decoration: none;
-  color: #0f001b;
-  padding-top: 5%;
-  padding-bottom: 5%; }
-
-h3 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: calc(8px + 1vw);
-  text-decoration: none;
-  color: #0f001b; }
-
 main {
   font-family: 'Quicksand', sans-serif;
   text-align: center; }
-
-.button2 {
-  font-family: 'Quicksand', sans-serif;
-  font-size: calc(8px + 1vw);
-  padding-top: 5%;
-  padding-bottom: 5%;
-  align-content: center;
-  box-sizing: content-box; }
-  .button2 button {
-    width: 180px;
-    height: 30px;
-    border-radius: 16px;
-    border: 0em; }
-
-li {
-  list-style: none;
-  display: inline-block;
-  justify-content: space-evenly; }
-
-.comentarios {
-  font-kerning: auto;
-  box-sizing: content-box;
-  height: auto; }
-
-.gradientes {
-  background-image: radial-gradient(#fdf1d0, #693c12); }
-
-.terminos {
-  font-family: 'Quicksand', sans-serif;
-  font-size: calc(3px + 1vw);
-  text-decoration: none;
-  color: #0f001b;
-  padding-top: 3%; }
-  .terminos a:active {
-    text-decoration: none;
-    color: #0f001b; }
-  .terminos a:link {
-    text-decoration: none;
-    color: #0f001b; }
-  .terminos a:visited {
-    text-decoration: none;
-    color: #0f001b; }
-  .terminos a:hover {
-    text-decoration: none;
-    color: #5f5f5f; }
-
-.espacioterminos {
-  padding: 10%; }
 
 .footer {
   background-color: #0f001b;

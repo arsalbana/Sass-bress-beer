@@ -22,25 +22,31 @@ body{
         .engrilla{
             .textop{
                 
-                font-size: calc(14px + #{$width2});
+                font-size: calc(10px + #{$width2});
                 font-family: 'Quicksand';
                 text-align: center;
                 color: #0f001b;
+                padding-bottom: 20%;
+                
                 
             }
             grid-area: engrilla;
-            padding-top: 30%;
+            padding: 10%;
+            
             .lista{
-                font-size: calc(14px + #{$width});
+                font-size: calc(10px + #{$width});
                 font-family: 'Quicksand';
                 text-align: center;
                 color: #0f001b;
+                padding-top: 15%;
+                text-decoration: none;
+                
             }
                 
         }
         .redondo{
             grid-area: redondo;
-            padding: 5%;
+            padding-right: 5%;
             text-decoration: none;
     
         }
