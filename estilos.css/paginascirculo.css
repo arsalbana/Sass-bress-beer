@@ -15,7 +15,7 @@ button {
   background-color: #0f001b; }
 
 .navbar-left {
-  max-width: 70%; }
+  max-width: 100%; }
   .navbar-left .logo {
     justify-items: flex-start;
     position: initial; }
@@ -41,26 +41,97 @@ button {
 body {
   background-color: #0f001b; }
 
-.alinear {
-  width: 100%;
-  margin: 10px auto;
-  background-color: white;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, auto);
-  gap: 10px;
-  grid-template-areas: "redondo engrilla" "footer footer"; }
-  .alinear .redondo {
-    grid-area: redondo;
-    padding: 5%; }
-  .alinear .engrilla {
-    grid-area: engrilla;
-    padding: 5%; }
-    .alinear .engrilla .textop {
-      font-size: calc(12px + 1vw);
-      font-family: 'Quicksand';
-      text-align: center;
-      padding-top: 20%; }
+@media (max-width: 10px) {
+  .alinear {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    grid-template-areas: "redondo"  "engrilla" "footer"; }
+    .alinear .redondo {
+      grid-area: redondo;
+      padding: 5%;
+      text-decoration: none; }
+    .alinear .engrilla {
+      grid-area: engrilla;
+      padding: 5%; }
+      .alinear .engrilla .textop {
+        font-size: calc(8px + 1vw);
+        font-family: 'Quicksand';
+        text-align: center;
+        padding-top: 5%; } }
+
+@media (min-width: 10px) and (max-width: 360px) {
+  .alinear {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 10px;
+    grid-template-areas: "redondo"  "engrilla" "footer"; }
+    .alinear .redondo {
+      grid-area: redondo;
+      padding: 5%;
+      text-decoration: none; }
+    .alinear .engrilla {
+      grid-area: engrilla;
+      padding: 5%; }
+      .alinear .engrilla .textop {
+        font-size: calc(8px + 1vw);
+        font-family: 'Quicksand';
+        text-align: center;
+        padding-top: 5%; } }
+
+@media (min-width: 360px) and (max-width: 760px) {
+  .alinear {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    grid-template-areas: "redondo engrilla" "footer footer"; }
+    .alinear .redondo {
+      grid-area: redondo;
+      padding: 5%;
+      text-decoration: none; }
+    .alinear .engrilla {
+      grid-area: engrilla;
+      padding: 5%; }
+      .alinear .engrilla .textop {
+        font-size: calc(10px + 1vw);
+        font-family: 'Quicksand';
+        text-align: center;
+        padding-top: 5%; } }
+
+@media (min-width: 760px) and (max-width: 1600px) {
+  .alinear {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 10px;
+    grid-template-areas: "redondo engrilla" "footer footer"; }
+    .alinear .redondo {
+      grid-area: redondo;
+      padding: 5%;
+      text-decoration: none; }
+    .alinear .engrilla {
+      grid-area: engrilla;
+      padding: 5%; }
+      .alinear .engrilla .textop {
+        font-size: calc(12px + 1vw);
+        font-family: 'Quicksand';
+        text-align: center;
+        padding-top: 20%; } }
 
 .footer {
   background-color: #0f001b;

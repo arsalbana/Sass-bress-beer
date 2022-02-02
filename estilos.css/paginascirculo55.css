@@ -15,7 +15,7 @@ button {
   background-color: #0f001b; }
 
 .navbar-left {
-  max-width: 70%; }
+  max-width: 100%; }
   .navbar-left .logo {
     justify-items: flex-start;
     position: initial; }
@@ -41,36 +41,134 @@ button {
 body {
   background-color: #0f001b; }
 
-.alinear {
-  width: 100%;
-  margin: 10px auto;
-  background-color: white;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(5, auto);
-  gap: 10px;
-  grid-template-areas: "redondo engrilla" "engrilla1 redondo1" "footer footer"; }
-  .alinear .redondo {
-    grid-area: redondo;
-    padding: 5%; }
-  .alinear .engrilla {
-    grid-area: engrilla;
-    padding: 5%; }
-    .alinear .engrilla .letratexto {
-      font-family: 'Pacifico', cursive;
-      font-size: calc(12px + 1.5vw);
-      font-family: 'Pacifico';
-      padding-top: 20%; }
-  .alinear .redondo1 {
-    grid-area: redondo1;
-    padding: 5%; }
-  .alinear .engrilla1 {
-    grid-area: engrilla1;
-    padding: 5%; }
-    .alinear .engrilla1 .letratexto1 {
-      font-size: calc(12px + 1vw);
-      font-family: 'Quicksand';
-      padding-top: 20%; }
+@media (max-width: 10px) {
+  .alinear {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    grid-template-areas: "engrilla" "redondo"  "engrilla1"  "redondo1" "footer"; }
+    .alinear .redondo {
+      grid-area: redondo;
+      padding: 5%; }
+    .alinear .engrilla {
+      grid-area: engrilla;
+      padding: 5%;
+      margin: auto; }
+      .alinear .engrilla .letratexto {
+        font-family: 'Pacifico', cursive;
+        font-size: calc(8px + 1.5vw);
+        font-family: 'Pacifico';
+        padding-top: 20%; }
+    .alinear .redondo1 {
+      grid-area: redondo1;
+      padding: 5%; }
+    .alinear .engrilla1 {
+      grid-area: engrilla1;
+      padding: 5%; }
+      .alinear .engrilla1 .letratexto1 {
+        font-size: calc(12px + 1vw);
+        font-family: 'Quicksand';
+        padding-top: 20%; } }
+
+@media (min-width: 10px) and (max-width: 360px) {
+  .alinear {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    grid-template-areas: "engrilla" "redondo"  "engrilla1"  "redondo1" "footer"; }
+    .alinear .redondo {
+      grid-area: redondo;
+      padding: 5%; }
+    .alinear .engrilla {
+      grid-area: engrilla;
+      padding: 5%; }
+      .alinear .engrilla .letratexto {
+        font-family: 'Pacifico', cursive;
+        font-size: calc(10px + 1.5vw);
+        font-family: 'Pacifico';
+        padding-top: 20%; }
+    .alinear .redondo1 {
+      grid-area: redondo1;
+      padding: 5%; }
+    .alinear .engrilla1 {
+      grid-area: engrilla1;
+      padding: 5%; }
+      .alinear .engrilla1 .letratexto1 {
+        font-size: calc(12px + 1vw);
+        font-family: 'Quicksand';
+        padding-top: 20%; } }
+
+@media (min-width: 360px) and (max-width: 760px) {
+  .alinear {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    grid-template-areas: "redondo engrilla" "engrilla1 redondo1" "footer footer"; }
+    .alinear .redondo {
+      grid-area: redondo;
+      padding: 5%; }
+    .alinear .engrilla {
+      grid-area: engrilla;
+      padding: 5%; }
+      .alinear .engrilla .letratexto {
+        font-family: 'Pacifico', cursive;
+        font-size: calc(12px + 1.5vw);
+        font-family: 'Pacifico';
+        padding-top: 20%; }
+    .alinear .redondo1 {
+      grid-area: redondo1;
+      padding: 5%; }
+    .alinear .engrilla1 {
+      grid-area: engrilla1;
+      padding: 5%; }
+      .alinear .engrilla1 .letratexto1 {
+        font-size: calc(12px + 1vw);
+        font-family: 'Quicksand';
+        padding-top: 20%; } }
+
+@media (min-width: 760px) and (max-width: 1600px) {
+  .alinear {
+    width: 100%;
+    margin: 10px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    gap: 10px;
+    grid-template-areas: "redondo engrilla" "engrilla1 redondo1" "footer footer"; }
+    .alinear .redondo {
+      grid-area: redondo;
+      padding: 5%; }
+    .alinear .engrilla {
+      grid-area: engrilla;
+      padding: 5%; }
+      .alinear .engrilla .letratexto {
+        font-family: 'Pacifico', cursive;
+        font-size: calc(12px + 1.5vw);
+        font-family: 'Pacifico';
+        padding-top: 20%; }
+    .alinear .redondo1 {
+      grid-area: redondo1;
+      padding: 5%; }
+    .alinear .engrilla1 {
+      grid-area: engrilla1;
+      padding: 5%; }
+      .alinear .engrilla1 .letratexto1 {
+        font-size: calc(12px + 1vw);
+        font-family: 'Quicksand';
+        padding-top: 20%; } }
 
 .footer {
   background-color: #0f001b;
