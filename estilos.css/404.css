@@ -41,6 +41,11 @@ button {
 body {
   background-color: #0f001b; }
 
+.lista {
+  list-style: none;
+  text-decoration: none;
+  color: #0f001b; }
+
 @media (max-width: 10px) {
   .alinear {
     width: 100%;
@@ -62,7 +67,8 @@ body {
         font-size: calc(8px + 1vw);
         font-family: 'Quicksand';
         text-align: center;
-        padding-top: 5%; } }
+        padding-top: 5%;
+        color: #0f001b; } }
 
 @media (min-width: 10px) and (max-width: 360px) {
   .alinear {
@@ -85,7 +91,8 @@ body {
         font-size: calc(8px + 1vw);
         font-family: 'Quicksand';
         text-align: center;
-        padding-top: 5%; } }
+        padding-top: 5%;
+        color: #0f001b; } }
 
 @media (min-width: 360px) and (max-width: 760px) {
   .alinear {
@@ -108,7 +115,8 @@ body {
         font-size: calc(10px + 1vw);
         font-family: 'Quicksand';
         text-align: center;
-        padding-top: 5%; } }
+        padding-top: 5%;
+        color: #0f001b; } }
 
 @media (min-width: 760px) and (max-width: 1600px) {
   .alinear {
@@ -131,7 +139,8 @@ body {
         font-size: calc(12px + 1vw);
         font-family: 'Quicksand';
         text-align: center;
-        padding-top: 20%; } }
+        padding-top: 20%;
+        color: #0f001b; } }
 
 .footer {
   background-color: #0f001b;

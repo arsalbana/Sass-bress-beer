@@ -15,7 +15,7 @@ button {
   background-color: #0f001b; }
 
 .navbar-left {
-  max-width: 70%; }
+  max-width: 100%; }
   .navbar-left .logo {
     justify-items: flex-start;
     position: initial; }
@@ -56,6 +56,8 @@ body {
   grid-template-rows: repeat(2, auto);
   gap: 10px;
   grid-template-areas: "gradientes" "footer"; }
+  .padre input:focus {
+    outline: none; }
   .padre .gradientes {
     background-image: radial-gradient(#fdf1d0, #693c12);
     grid-area: gradientes; }

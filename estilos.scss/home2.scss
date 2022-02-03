@@ -9,6 +9,10 @@ body{
 .imggrande{
     width: 100%;
 }
+input:focus{
+    outline: none;
+
+}
 
 @include media (lg) {
     .padre{
