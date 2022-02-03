@@ -24,7 +24,10 @@ h2{
     
 }
 
-@include media (sm) {
+
+
+@include media (xs) {
+   
     
     .padre{
         width: 100%;
@@ -41,58 +44,200 @@ h2{
         "posicionfotos1"
         "posicionfotos2"
         "footer";
-    }
-    .posicionfotos1{
-        grid-area: posicionfotos1;
-        width: 80%;
-        align-content: center;
-        text-align: center;
-        transition: width 0.75s;
-        padding-top: 10%;
-        margin: auto;
+        .posicionfotos1{
+            grid-area: posicionfotos1;
+            width: 100%;
+            align-content: center;
+            text-align: center;
+            transition: width 0.75s;
+            margin: auto;
+            
+        }
+        .posicionfotos2{
+            grid-area: posicionfotos2;
+            width: 100%;
+            align-content: center;
+            text-align: center;
+            transition: width 0.75s;
+            margin: auto;
+            
+        }
+      
         
-    }
-    .posicionfotos2{
-        grid-area: posicionfotos2;
-        width: 80%;
-        align-content: center;
-        text-align: center;
-        transition: width 0.75s;
-        padding-top: 10%;
-        margin: auto;
+        .posicionfotos1:hover{
+            grid-area: posicionfotos1;
+            width: 105%;
+            list-style: none;
+        }
+        .posicionfotos2:hover{
+            grid-area: posicionfotos2;
+            list-style: none;
+            width: 105%;
+        }
+      
+        .cerveza1{
+            list-style: none;
+            grid-area: posicionfotos1;
+            padding: 10%;
+            font-size:calc(8px + #{$width1});
         
+        
+        }
+        .cerveza2{
+            list-style: none;
+            grid-area: posicionfotos2;
+            padding: 10%;
+            font-size:calc(8px + #{$width1});
+        
+        
+        }
     }
+  
+ 
+}
+@include media (sm) {
    
-    .posicionfotos1:hover{
-        grid-area: posicionfotos1;
-        list-style: none;
-        width: 85%;
+    
+    .padre{
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+        font-family: quicksand;
+        color: white;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 10px;
+        grid-template-areas: 
+        "posicionfotos1"
+        "posicionfotos2"
+        "footer";
+        .posicionfotos1{
+            grid-area: posicionfotos1;
+            width: 80%;
+            align-content: center;
+            text-align: center;
+            transition: width 0.75s;
+            margin: auto;
+            
+        }
+        .posicionfotos2{
+            grid-area: posicionfotos2;
+            width: 80%;
+            align-content: center;
+            text-align: center;
+            transition: width 0.75s;
+            margin: auto;
+            
+        }
+      
+        
+        .posicionfotos1:hover{
+            grid-area: posicionfotos1;
+            width: 85%;
+            list-style: none;
+        }
+        .posicionfotos2:hover{
+            grid-area: posicionfotos2;
+            list-style: none;
+            width: 85%;
+        }
+      
+        .cerveza1{
+            list-style: none;
+            grid-area: posicionfotos1;
+            padding: 5%;
+            font-size:calc(10px + #{$width});
+        
+        
+        }
+        .cerveza2{
+            list-style: none;
+            grid-area: posicionfotos2;
+            padding: 5%;
+            font-size:calc(10px + #{$width});
+        
+        
+        }
     }
-    .posicionfotos2:hover{
-        grid-area: posicionfotos2;
-        list-style: none;
-        width: 85%;
-    }
-    
-    .cerveza1{
-        list-style: none;
-        grid-area: posicionfotos1;
-        padding: 5%;
-        font-size:calc(10px + #{$width});
-    
-    
-    }
-    .cerveza2{
-        list-style: none;
-        grid-area: posicionfotos2;
-        padding: 5%;
-        font-size:calc(10px + #{$width});
-    
-    
-    }
-    
+  
+ 
 }
 @include media (md) {
+   
+    
+    .padre{
+        width: 100%;
+        height: 100%;
+        margin: 10px auto;
+        font-family: quicksand;
+        color: white;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, auto);
+        gap: 10px;
+        grid-template-areas: 
+        "posicionfotos1"
+        "posicionfotos2"
+        "footer";
+        .posicionfotos1{
+            grid-area: posicionfotos1;
+            width: 80%;
+            align-content: center;
+            text-align: center;
+            transition: width 0.75s;
+            margin: auto;
+            padding-top: 10%;
+            
+        }
+        .posicionfotos2{
+            grid-area: posicionfotos2;
+            width: 80%;
+            align-content: center;
+            text-align: center;
+            transition: width 0.75s;
+            margin: auto;
+            padding-top: 10%;
+            
+        }
+      
+        
+        .posicionfotos1:hover{
+            grid-area: posicionfotos1;
+            width: 85%;
+            list-style: none;
+        }
+        .posicionfotos2:hover{
+            grid-area: posicionfotos2;
+            list-style: none;
+            width: 85%;
+        }
+      
+        .cerveza1{
+            list-style: none;
+            grid-area: posicionfotos1;
+            padding: 5%;
+            font-size:calc(10px + #{$width1});
+        
+        
+        }
+        .cerveza2{
+            list-style: none;
+            grid-area: posicionfotos2;
+            padding: 5%;
+            font-size:calc(10px + #{$width1});
+        
+        
+        }
+    }
+  
+ 
+}
+
+
+@include media (lg) {
    
     .padre{
         
@@ -110,119 +255,58 @@ h2{
         "posicionfotos1 posicionfotos2"
         "footer footer"
         ;
-    }
-    .posicionfotos1{
-        grid-area: posicionfotos1;
-        list-style: none;
-        transition: width 3s;
-        padding: 5%;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-        margin: auto;
-
-    }
-    .posicionfotos2{
-        grid-area: posicionfotos2;
-        list-style: none;
-        padding: 5%;
-        transition: width 0.75s;
-        align-content: center;
-        text-align: center;
-        width: 100%;
-        margin: auto;
-    }
+        .posicionfotos1{
+            grid-area: posicionfotos1;
+            list-style: none;
+            transition: width 0.75s;
+            padding: 5%;
+            align-content: center;
+            text-align: center;
+            width: 100%;
+            margin: auto;
     
-    .posicionfotos1:hover{
-        grid-area: posicionfotos1;
-        list-style: none;
-        width: 105%;
+        }
+        .posicionfotos2{
+            grid-area: posicionfotos2;
+            list-style: none;
+            padding: 5%;
+            transition: width 0.75s;
+            align-content: center;
+            text-align: center;
+            width: 100%;
+            margin: auto;
+        }
+        
+        .posicionfotos1:hover{
+            grid-area: posicionfotos1;
+            list-style: none;
+            width: 105%;
+        }
+        .posicionfotos2:hover{
+            grid-area: posicionfotos2;
+            list-style: none;
+            width: 105%;
+        }
+      
+        .cerveza1{
+            list-style: none;
+            grid-area: posicionfotos1;
+            padding: 10%;
+            font-size:calc(10px + #{$width1});
+        
+        
+        }
+        .cerveza2{
+            list-style: none;
+            grid-area: posicionfotos2;
+            padding: 10%;
+            font-size:calc(10px + #{$width1});
+        
+        
+        }
     }
-    .posicionfotos2:hover{
-        grid-area: posicionfotos2;
-        list-style: none;
-        width: 105%;
-    }
-  
-    .cerveza1{
-        list-style: none;
-        grid-area: posicionfotos1;
-        padding: 10%;
-        font-size:calc(10px + #{$width1});
-    
-    
-    }
-    .cerveza2{
-        list-style: none;
-        grid-area: posicionfotos2;
-        padding: 10%;
-        font-size:calc(10px + #{$width1});
-    
-    
-    }
-  
-}
-@include media (xs) {
    
-    .padre{
-        
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(3, auto);
-        gap: 10px;
-        grid-template-areas: 
-        "posicionfotos1"
-        "posicionfotos2"
-        "footer";
-    }
-    .posicionfotos1{
-        grid-area: posicionfotos1;
-        width: 100%;
-        align-content: center;
-        text-align: center;
-        padding: 30%;
-        transition: width 0.75s;
-        margin: auto;
-        
-    }
-    .posicionfotos2{
-        grid-area: posicionfotos2;
-        width: 100%;
-        align-content: center;
-        text-align: center;
-        padding: 30%;
-        transition: width 0.75s;
-        margin: auto;
-        
-    }
   
-    
-    .posicionfotos1:hover{
-        grid-area: posicionfotos1;
-        width: 105%;
-    }
-    .posicionfotos2:hover{
-        grid-area: posicionfotos2;
-        list-style: none;
-        width: 105%;
-    }
-  
-    .cerveza1{
-        list-style: none;
-        grid-area: posicionfotos1;
-        padding: 10%;
-        font-size:calc(8px + #{$width1});
-    
-    
-    }
-    .cerveza2{
-        list-style: none;
-        grid-area: posicionfotos2;
-        padding: 10%;
-        font-size:calc(8px + #{$width1});
-    
-    
-    }
- 
 }
 
 
