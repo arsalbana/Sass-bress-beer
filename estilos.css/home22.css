@@ -62,14 +62,14 @@ input:focus {
     grid-template-areas: "posicionfotos3 posicionfotos3 texto" "gradientes gradientes gradientes" "footer footer footer"; }
     .padre .posicionfotos3 {
       grid-area: posicionfotos3;
-      padding-top: 40%; }
+      padding-top: 5%;
+      padding-bottom: 5%; }
     .padre .cerveza3 h2 {
       font-family: 'Pacifico', cursive;
       font-size: calc(12px + 1vw);
       text-decoration: none;
       color: #0f001b;
-      padding-top: 25%;
-      padding-bottom: 25%; }
+      padding: 5%; }
     .padre .texto {
       grid-area: texto;
       font-family: quicksand;
@@ -161,14 +161,14 @@ input:focus {
     grid-template-areas: "posicionfotos3 posicionfotos3 texto" "gradientes gradientes gradientes" "footer footer footer"; }
     .padre .posicionfotos3 {
       grid-area: posicionfotos3;
-      padding-top: 40%; }
+      padding-top: 5%;
+      padding-bottom: 5%; }
     .padre .cerveza3 h2 {
       font-family: 'Pacifico', cursive;
       font-size: calc(12px + 1vw);
       text-decoration: none;
       color: #0f001b;
-      padding-top: 25%;
-      padding-bottom: 25%; }
+      padding: 5%; }
     .padre .texto {
       grid-area: texto;
       font-family: quicksand;
@@ -260,14 +260,14 @@ input:focus {
     grid-template-areas: "posicionfotos3" "texto" "gradientes" "footer"; }
     .padre .posicionfotos3 {
       grid-area: posicionfotos3;
-      padding-top: 40%; }
+      padding-top: 5%;
+      padding-bottom: 5%; }
     .padre .cerveza3 h2 {
       font-family: 'Pacifico', cursive;
       font-size: calc(12px + 1vw);
       text-decoration: none;
       color: #0f001b;
-      padding-top: 25%;
-      padding-bottom: 25%; }
+      padding: 5%; }
     .padre .texto {
       grid-area: texto;
       font-family: quicksand;
@@ -358,14 +358,14 @@ input:focus {
     grid-template-areas: "posicionfotos3" "texto" "gradientes" "footer"; }
     .padre .posicionfotos3 {
       grid-area: posicionfotos3;
-      padding-top: 40%; }
+      padding-top: 5%;
+      padding-bottom: 5%; }
     .padre .cerveza3 h2 {
       font-family: 'Pacifico', cursive;
       font-size: calc(12px + 1vw);
       text-decoration: none;
       color: #0f001b;
-      padding-top: 25%;
-      padding-bottom: 25%; }
+      padding: 5%; }
     .padre .texto {
       grid-area: texto;
       font-family: quicksand;

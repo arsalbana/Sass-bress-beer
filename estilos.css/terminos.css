@@ -41,9 +41,6 @@ button {
 body {
   background-color: #0f001b; }
 
-.imggrande {
-  width: 100%; }
-
 .padre {
   width: 100%;
   height: 100%;
@@ -55,194 +52,146 @@ body {
   grid-template-columns: repeat(1, 1 fr);
   grid-template-rows: repeat(2, auto);
   gap: 10px;
-  padding: 5%;
-  grid-template-areas: "gradientes" "footer"; }
-  .padre .gradientes {
-    grid-area: gradientes; }
+  grid-template-areas: "terminos" "footer"; }
+  .padre .terminos {
+    padding: 5%;
+    grid-area: terminos; }
     @media (min-width: 760px) and (max-width: 1600px) {
-      .padre .gradientes h2 {
+      .padre .terminos h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
         text-decoration: none;
         color: #0f001b;
         padding-top: 5%;
-        padding-bottom: 5%; }
-      .padre .gradientes .inputtext input {
-        width: 240px;
-        height: 30px;
-        border-radius: 10px;
-        border: 0em; }
-      .padre .gradientes .inputtext h3 {
+        padding-bottom: 10%;
+        text-align: center; }
+      .padre .terminos h4 {
         font-family: 'Quicksand', sans-serif;
-        font-size: calc(8px + 1vw);
+        font-size: calc(10px + 0.8vw);
         text-decoration: none;
-        color: #0f001b; }
-      .padre .gradientes .button2 {
+        color: #0f001b;
+        padding-bottom: 5%; }
+      .padre .terminos .parrafo {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 0.8vw);
+        text-decoration: none;
+        color: #0f001b;
+        padding-bottom: 7%; }
+      .padre .terminos .button2 {
         font-family: 'Quicksand', sans-serif;
         font-size: calc(8px + 1vw);
-        padding-top: 5%;
-        padding-bottom: 5%;
         align-content: center;
-        box-sizing: content-box; }
-        .padre .gradientes .button2 button {
-          width: 240px;
+        box-sizing: content-box;
+        display: inline-block;
+        padding-left: 20%; }
+        .padre .terminos .button2 button {
+          width: 160px;
           height: 30px;
           border-radius: 16px;
-          border: 0em; }
-      .padre .gradientes .comentarios {
-        font-kerning: auto;
-        box-sizing: content-box;
-        height: auto; }
-        .padre .gradientes .comentarios input {
-          width: 240px;
-          height: 80px;
-          border-radius: 10px;
-          border: 0em; }
-        .padre .gradientes .comentarios h3 {
-          font-family: 'Quicksand', sans-serif;
-          font-size: calc(8px + 1vw);
-          text-decoration: none;
-          color: #0f001b; } }
+          border: 0em; } }
     @media (min-width: 360px) and (max-width: 760px) {
-      .padre .gradientes h2 {
+      .padre .terminos h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
         text-decoration: none;
         color: #0f001b;
         padding-top: 5%;
-        padding-bottom: 5%; }
-      .padre .gradientes .inputtext input {
-        width: 240px;
-        height: 30px;
-        border-radius: 10px;
-        border: 0em; }
-      .padre .gradientes .inputtext h3 {
+        padding-bottom: 10%;
+        text-align: center; }
+      .padre .terminos h4 {
         font-family: 'Quicksand', sans-serif;
-        font-size: calc(8px + 1vw);
+        font-size: calc(10px + 0.8vw);
         text-decoration: none;
-        color: #0f001b; }
-      .padre .gradientes .button2 {
+        color: #0f001b;
+        padding-bottom: 5%; }
+      .padre .terminos .parrafo {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 0.8vw);
+        text-decoration: none;
+        color: #0f001b;
+        padding-bottom: 7%; }
+      .padre .terminos .button2 {
         font-family: 'Quicksand', sans-serif;
         font-size: calc(8px + 1vw);
-        padding-top: 5%;
-        padding-bottom: 5%;
         align-content: center;
-        box-sizing: content-box; }
-        .padre .gradientes .button2 button {
-          width: 240px;
+        box-sizing: content-box;
+        display: inline-block;
+        padding-left: 15%; }
+        .padre .terminos .button2 button {
+          width: 120px;
           height: 30px;
           border-radius: 16px;
-          border: 0em; }
-      .padre .gradientes .comentarios {
-        font-kerning: auto;
-        box-sizing: content-box;
-        height: auto; }
-        .padre .gradientes .comentarios input {
-          width: 240px;
-          height: 80px;
-          border-radius: 10px;
-          border: 0em; }
-        .padre .gradientes .comentarios h3 {
-          font-family: 'Quicksand', sans-serif;
-          font-size: calc(8px + 1vw);
-          text-decoration: none;
-          color: #0f001b; } }
+          border: 0em; } }
     @media (min-width: 10px) and (max-width: 360px) {
-      .padre .gradientes h2 {
+      .padre .terminos h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
         text-decoration: none;
         color: #0f001b;
         padding-top: 5%;
-        padding-bottom: 5%; }
-      .padre .gradientes .inputtext input {
-        width: 150px;
-        height: 26px;
-        border-radius: 6px;
-        border: 0em; }
-      .padre .gradientes .inputtext h3 {
+        padding-bottom: 10%;
+        text-align: center; }
+      .padre .terminos h4 {
         font-family: 'Quicksand', sans-serif;
-        font-size: calc(8px + 1vw);
+        font-size: calc(10px + 0.8vw);
         text-decoration: none;
-        color: #0f001b; }
-      .padre .gradientes .button2 {
+        color: #0f001b;
+        padding-bottom: 5%; }
+      .padre .terminos .parrafo {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 0.8vw);
+        text-decoration: none;
+        color: #0f001b;
+        padding-bottom: 7%; }
+      .padre .terminos .button2 {
         font-family: 'Quicksand', sans-serif;
         font-size: calc(8px + 1vw);
-        padding-top: 5%;
-        padding-bottom: 5%;
         align-content: center;
-        box-sizing: content-box; }
-        .padre .gradientes .button2 button {
-          width: 150px;
+        box-sizing: content-box;
+        display: inline-block;
+        padding-left: 15%; }
+        .padre .terminos .button2 button {
+          width: 60px;
           height: 26px;
           border-radius: 12px;
-          border: 0em; }
-      .padre .gradientes .comentarios {
-        font-kerning: auto;
-        box-sizing: content-box;
-        height: auto; }
-        .padre .gradientes .comentarios input {
-          width: 150px;
-          height: 50px;
-          border-radius: 6px;
-          border: 0em; }
-        .padre .gradientes .comentarios h3 {
-          font-family: 'Quicksand', sans-serif;
-          font-size: calc(8px + 1vw);
-          text-decoration: none;
-          color: #0f001b; } }
+          border: 0em; } }
     @media (max-width: 10px) {
-      .padre .gradientes h2 {
+      .padre .terminos h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
         text-decoration: none;
         color: #0f001b;
         padding-top: 5%;
-        padding-bottom: 5%; }
-      .padre .gradientes .inputtext input {
-        width: 100px;
-        height: 20px;
-        border-radius: 2px;
-        border: 0em; }
-      .padre .gradientes .inputtext h3 {
+        padding-bottom: 10%;
+        text-align: center; }
+      .padre .terminos h4 {
         font-family: 'Quicksand', sans-serif;
-        font-size: calc(8px + 1vw);
+        font-size: calc(10px + 0.8vw);
         text-decoration: none;
-        color: #0f001b; }
-      .padre .gradientes .button2 {
+        color: #0f001b;
+        padding-bottom: 5%; }
+      .padre .terminos .parrafo {
+        font-family: 'Quicksand', sans-serif;
+        font-size: calc(8px + 0.8vw);
+        text-decoration: none;
+        color: #0f001b;
+        padding-bottom: 7%; }
+      .padre .terminos .button2 {
         font-family: 'Quicksand', sans-serif;
         font-size: calc(8px + 1vw);
-        padding-top: 5%;
-        padding-bottom: 5%;
         align-content: center;
-        box-sizing: content-box; }
-        .padre .gradientes .button2 button {
-          width: 100px;
+        box-sizing: content-box;
+        display: inline-block;
+        padding-left: 15%; }
+        .padre .terminos .button2 button {
+          width: 60px;
           height: 20px;
           border-radius: 8px;
-          border: 0em; }
-      .padre .gradientes .comentarios {
-        font-kerning: auto;
-        box-sizing: content-box;
-        height: auto; }
-        .padre .gradientes .comentarios input {
-          width: 100px;
-          height: 32px;
-          border-radius: 2px;
-          border: 0em; }
-        .padre .gradientes .comentarios h3 {
-          font-family: 'Quicksand', sans-serif;
-          font-size: calc(8px + 1vw);
-          text-decoration: none;
-          color: #0f001b; } }
+          border: 0em; } }
 
 body {
   background-color: #0f001b;
   font-family: 'Quicksand', sans-serif; }
-
-main {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center; }
 
 .footer {
   background-color: #0f001b;

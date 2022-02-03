@@ -6,9 +6,7 @@ body{
     background-color: #0f001b;
 
 }
-.imggrande{
-    width: 100%;
-}
+
 
 .padre{
     width: 100%;
@@ -21,15 +19,14 @@ body{
     grid-template-columns: repeat(1, 1 fr);
     grid-template-rows: repeat(2, auto);
     gap: 10px;
-    padding: 5%;
     grid-template-areas: 
-    "gradientes"
+    "terminos"
     "footer"
     ;
 
-    .gradientes{
-
-        grid-area: gradientes;
+    .terminos{
+        padding: 5%;
+        grid-area: terminos;
         @include media (lg) {
             h2{
             
@@ -38,67 +35,45 @@ body{
                 text-decoration: none;
                 color: #0f001b;
                 padding-top: 5%;
-                padding-bottom: 5%;
+                padding-bottom: 10%;
+                text-align: center;
             }
-            .inputtext{
-                
-                    input{
-                        width: 240px;
-                        height: 30px;
-                        border-radius: 10px;
-                        border: 0em;
-                    
-                    }
-                
-                h3{
+            h4{
             
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(10px + #{$width1});
+                text-decoration: none;
+                color: #0f001b;
+                padding-bottom: 5%;
+               
+            }   
+            .parrafo{
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(8px + #{$width1});
+                text-decoration: none;
+                color: #0f001b;
+                padding-bottom: 7%;
             }
+                
             .button2{
                 font-family: 'Quicksand', sans-serif;
                 font-size:calc(8px + #{$width2});
-                padding-top: 5%;
-                padding-bottom: 5%;
                 align-content: center;
                 box-sizing: content-box;
+                display: inline-block;
+                padding-left: 20%;
+                
+                
                 
                 button{
-                    width: 240px;
+                    width: 160px;
                     height: 30px;
                     border-radius: 16px;
                     border: 0em;
-                }
-                
-               
+                }  
                 
             }
-            .comentarios{
-                
-                input{
-                    width: 240px;
-                    height: 80px;
-                    border-radius: 10px;
-                    border: 0em;
-                }    
-                
-                font-kerning: auto;
-                box-sizing: content-box;
-                height: auto;
-                h3{
             
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
-            
-            }
-            
-       
         }
         @include media (md) {
             h2{
@@ -108,67 +83,44 @@ body{
                 text-decoration: none;
                 color: #0f001b;
                 padding-top: 5%;
-                padding-bottom: 5%;
+                padding-bottom: 10%;
+                text-align: center;
             }
-            .inputtext{
-                
-                    input{
-                        width: 240px;
-                        height: 30px;
-                        border-radius: 10px;
-                        border: 0em;
-                    
-                    }
-                
-                h3{
+            h4{
             
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(10px + #{$width1});
+                text-decoration: none;
+                color: #0f001b;
+                padding-bottom: 5%;
+                
+            }   
+            .parrafo{
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(8px + #{$width1});
+                text-decoration: none;
+                color: #0f001b;
+                padding-bottom: 7%;
             }
+                
             .button2{
                 font-family: 'Quicksand', sans-serif;
                 font-size:calc(8px + #{$width2});
-                padding-top: 5%;
-                padding-bottom: 5%;
                 align-content: center;
                 box-sizing: content-box;
+                display: inline-block;
+                padding-left: 15%;
+                
                 
                 button{
-                    width: 240px;
+                    width: 120px;
                     height: 30px;
                     border-radius: 16px;
                     border: 0em;
-                }
-                
-               
+                }  
                 
             }
-            .comentarios{
-                
-                input{
-                    width: 240px;
-                    height: 80px;
-                    border-radius: 10px;
-                    border: 0em;
-                }    
-                
-                font-kerning: auto;
-                box-sizing: content-box;
-                height: auto;
-                h3{
             
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
-            
-            }
-            
-       
         }
         @include media (sm) {
             h2{
@@ -178,66 +130,44 @@ body{
                 text-decoration: none;
                 color: #0f001b;
                 padding-top: 5%;
-                padding-bottom: 5%;
+                padding-bottom: 10%;
+                text-align: center;
             }
-            .inputtext{
-                
-                input{
-                    width: 150px;
-                    height: 26px;
-                    border-radius: 6px;
-                    border: 0em;
-                }
-                
-                h3{
+            h4{
             
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(10px + #{$width1});
+                text-decoration: none;
+                color: #0f001b;
+                padding-bottom: 5%;
+                
+            }   
+            .parrafo{
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(8px + #{$width1});
+                text-decoration: none;
+                color: #0f001b;
+                padding-bottom: 7%;
             }
+                
             .button2{
                 font-family: 'Quicksand', sans-serif;
                 font-size:calc(8px + #{$width2});
-                padding-top: 5%;
-                padding-bottom: 5%;
                 align-content: center;
                 box-sizing: content-box;
+                display: inline-block;
+                padding-left: 15%;
+                
                 
                 button{
-                    width: 150px;
+                    width: 60px;
                     height: 26px;
                     border-radius: 12px;
                     border: 0em;
                 }
-                
-               
-                
-            }
-            .comentarios{
-                
-                input{
-                    width: 150px;
-                    height: 50px;
-                    border-radius: 6px;
-                    border: 0em;
-                }   
-                
-                font-kerning: auto;
-                box-sizing: content-box;
-                height: auto;
-                h3{
-            
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
-            
+                  
             }
             
-       
         }
         @include media (xs) {
             h2{
@@ -247,73 +177,46 @@ body{
                 text-decoration: none;
                 color: #0f001b;
                 padding-top: 5%;
-                padding-bottom: 5%;
+                padding-bottom: 10%;
+                text-align: center;
             }
-            .inputtext{
-                
-                input{
-                    width: 100px;
-                    height: 20px;
-                    border-radius: 2px;
-                    border: 0em;
-                }
-                
-                h3{
+            h4{
             
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
-            }
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(10px + #{$width1});
+                text-decoration: none;
+                color: #0f001b;
+                padding-bottom: 5%;
+               
+            }  
+            .parrafo{
+                font-family: 'Quicksand', sans-serif;
+                font-size:calc(8px + #{$width1});
+                text-decoration: none;
+                color: #0f001b;
+                padding-bottom: 7%;
+            } 
+                
             .button2{
                 font-family: 'Quicksand', sans-serif;
                 font-size:calc(8px + #{$width2});
-                padding-top: 5%;
-                padding-bottom: 5%;
                 align-content: center;
                 box-sizing: content-box;
+                display: inline-block;
+                padding-left: 15%;
+                
                 
                 button{
-                    width: 100px;
+                    width: 60px;
                     height: 20px;
                     border-radius: 8px;
                     border: 0em;
                 }
             }
-                
-               
-                
             
-            .comentarios{
-                
-                input{
-                    width: 100px;
-                    height: 32px;
-                    border-radius: 2px;
-                    border: 0em;
-                }    
-                
-                font-kerning: auto;
-                box-sizing: content-box;
-                height: auto;
-                h3{
-            
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
-            
-            }
-            
-       
         }
+        
     }
-
-
-
-
 
 }
 
@@ -323,10 +226,6 @@ body{
 }
 
 
-main{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;
-    }
 
 
 
