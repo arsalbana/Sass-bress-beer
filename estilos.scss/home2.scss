@@ -10,7 +10,9 @@ body{
     width: 100%;
 }
 input:focus{
-    outline: none;
+    
+    outline-color: dimgrey;
+    
 
 }
 
@@ -566,7 +568,9 @@ input:focus{
                     height: 20px;
                     border-radius: 2px;
                     border: 0em;
+                    
                 }
+                
                 
                 h3{
             

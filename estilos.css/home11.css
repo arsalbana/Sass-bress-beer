@@ -57,7 +57,7 @@ body {
   gap: 10px;
   grid-template-areas: "gradientes" "footer"; }
   .padre input:focus {
-    outline: none; }
+    outline-color: dimgrey; }
   .padre .gradientes {
     background-image: radial-gradient(#fdf1d0, #693c12);
     grid-area: gradientes; }
