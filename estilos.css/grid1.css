@@ -171,17 +171,17 @@ h2 {
   .cerveza1 {
     list-style: none;
     grid-area: posicionfotos1;
-    padding: 10%;
+    padding: 3%;
     font-size: calc(10px + 0.8vw); }
   .cerveza2 {
     list-style: none;
     grid-area: posicionfotos2;
-    padding: 10%;
+    padding: 3%;
     font-size: calc(10px + 0.8vw); }
   .cerveza3 {
     list-style: none;
     grid-area: posicionfotos3;
-    padding: 10%;
+    padding: 3%;
     font-size: calc(10px + 0.8vw); } }
 
 @media (min-width: 360px) and (max-width: 760px) {
