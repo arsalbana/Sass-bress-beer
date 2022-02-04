@@ -62,7 +62,7 @@ h2 {
 @media (max-width: 10px) {
   .padre {
     width: 100%;
-    margin: 10px auto;
+    margin: auto;
     font-family: quicksand;
     color: white;
     background-color: white;
@@ -120,7 +120,7 @@ h2 {
 @media (min-width: 10px) and (max-width: 360px) {
   .padre {
     width: 100%;
-    margin: 10px auto;
+    margin: auto;
     font-family: quicksand;
     color: white;
     background-color: white;
