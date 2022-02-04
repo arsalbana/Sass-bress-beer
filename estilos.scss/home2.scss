@@ -94,10 +94,7 @@ input:focus{
                }
             
             }
-            .espacioterminos{
-                padding: 10%;
-            }
-            
+           
                 h2{
                 
                     font-family: 'Pacifico', cursive;
@@ -109,13 +106,13 @@ input:focus{
                 }
                 .inputtext{
                     
-                        input{
-                            width: 240px;
-                            height: 30px;
-                            border-radius: 10px;
-                            border: 0em;
+                    input{
+                        width: 240px;
+                        height: 30px;
+                        border-radius: 10px;
+                        border: 0em;
                         
-                        }
+                    }
                     
                     h3{
                 
@@ -143,29 +140,7 @@ input:focus{
                    
                     
                 }
-                .comentarios{
-                    
-                    input{
-                        width: 240px;
-                        height: 80px;
-                        border-radius: 10px;
-                        border: 0em;
-                    }    
-                    
-                    font-kerning: auto;
-                    box-sizing: content-box;
-                    height: auto;
-                    h3{
-                
-                        font-family: 'Quicksand', sans-serif;
-                        font-size:calc(8px + #{$width2});
-                        text-decoration: none;
-                        color: #0f001b;
-                    }
-                
-                }
-                
-           
+             
         }   
     }
 }    
@@ -245,9 +220,7 @@ input:focus{
                }
             
             }
-            .espacioterminos{
-                padding: 10%;
-            }
+            
             
                 h2{
                 
@@ -260,13 +233,13 @@ input:focus{
                 }
                 .inputtext{
                     
-                        input{
-                            width: 240px;
-                            height: 30px;
-                            border-radius: 10px;
-                            border: 0em;
+                    input{
+                        width: 240px;
+                        height: 30px;
+                        border-radius: 10px;
+                        border: 0em;
                         
-                        }
+                    }
                     
                     h3{
                 
@@ -294,29 +267,7 @@ input:focus{
                    
                     
                 }
-                .comentarios{
-                    
-                    input{
-                        width: 240px;
-                        height: 80px;
-                        border-radius: 10px;
-                        border: 0em;
-                    }    
-                    
-                    font-kerning: auto;
-                    box-sizing: content-box;
-                    height: auto;
-                    h3{
-                
-                        font-family: 'Quicksand', sans-serif;
-                        font-size:calc(8px + #{$width2});
-                        text-decoration: none;
-                        color: #0f001b;
-                    }
-                
-                }
-                
-           
+              
         }   
     }
 }           
@@ -397,9 +348,7 @@ input:focus{
                }
             
             }
-            .espacioterminos{
-                padding: 10%;
-            }
+            
             
             h2{
             
@@ -445,28 +394,7 @@ input:focus{
                
                 
             }
-            .comentarios{
-                
-                input{
-                    width: 150px;
-                    height: 50px;
-                    border-radius: 6px;
-                    border: 0em;
-                }   
-                
-                font-kerning: auto;
-                box-sizing: content-box;
-                height: auto;
-                h3{
-            
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
-            
-            }
-                
+              
            
         }   
     }
@@ -528,8 +456,6 @@ input:focus{
                 color: #0f001b;
                 padding-top: 3%;
                 
-                   
-               
                 a:active{
                     text-decoration: none;
                     color: #0f001b;
@@ -548,9 +474,7 @@ input:focus{
                }
             
             }
-            .espacioterminos{
-                padding: 10%;
-            }
+            
             
             h2{
             
@@ -570,8 +494,6 @@ input:focus{
                     border: 0em;
                     
                 }
-                
-                
                 h3{
             
                     font-family: 'Quicksand', sans-serif;
@@ -580,6 +502,7 @@ input:focus{
                     color: #0f001b;
                 }
             }
+            
             .button2{
                 font-family: 'Quicksand', sans-serif;
                 font-size:calc(8px + #{$width2});
@@ -594,35 +517,7 @@ input:focus{
                     border-radius: 8px;
                     border: 0em;
                 }
-            }
-                
-               
-                
-            
-            .comentarios{
-                
-                input{
-                    width: 100px;
-                    height: 32px;
-                    border-radius: 2px;
-                    border: 0em;
-                }    
-                
-                font-kerning: auto;
-                box-sizing: content-box;
-                height: auto;
-                h3{
-            
-                    font-family: 'Quicksand', sans-serif;
-                    font-size:calc(8px + #{$width2});
-                    text-decoration: none;
-                    color: #0f001b;
-                }
-            
-            }
-            
-                
-           
+            }   
         }   
     }
 }      

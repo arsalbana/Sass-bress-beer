@@ -99,8 +99,6 @@ input:focus {
         .padre .gradientes .terminos a:hover {
           text-decoration: none;
           color: #5f5f5f; }
-      .padre .gradientes .espacioterminos {
-        padding: 10%; }
       .padre .gradientes h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
@@ -129,21 +127,7 @@ input:focus {
           width: 240px;
           height: 30px;
           border-radius: 16px;
-          border: 0em; }
-      .padre .gradientes .comentarios {
-        font-kerning: auto;
-        box-sizing: content-box;
-        height: auto; }
-        .padre .gradientes .comentarios input {
-          width: 240px;
-          height: 80px;
-          border-radius: 10px;
-          border: 0em; }
-        .padre .gradientes .comentarios h3 {
-          font-family: 'Quicksand', sans-serif;
-          font-size: calc(8px + 1vw);
-          text-decoration: none;
-          color: #0f001b; } }
+          border: 0em; } }
 
 @media (min-width: 360px) and (max-width: 760px) {
   .padre {
@@ -197,8 +181,6 @@ input:focus {
         .padre .gradientes .terminos a:hover {
           text-decoration: none;
           color: #5f5f5f; }
-      .padre .gradientes .espacioterminos {
-        padding: 10%; }
       .padre .gradientes h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
@@ -227,21 +209,7 @@ input:focus {
           width: 240px;
           height: 30px;
           border-radius: 16px;
-          border: 0em; }
-      .padre .gradientes .comentarios {
-        font-kerning: auto;
-        box-sizing: content-box;
-        height: auto; }
-        .padre .gradientes .comentarios input {
-          width: 240px;
-          height: 80px;
-          border-radius: 10px;
-          border: 0em; }
-        .padre .gradientes .comentarios h3 {
-          font-family: 'Quicksand', sans-serif;
-          font-size: calc(8px + 1vw);
-          text-decoration: none;
-          color: #0f001b; } }
+          border: 0em; } }
 
 @media (min-width: 10px) and (max-width: 360px) {
   .padre {
@@ -294,8 +262,6 @@ input:focus {
         .padre .gradientes .terminos a:hover {
           text-decoration: none;
           color: #5f5f5f; }
-      .padre .gradientes .espacioterminos {
-        padding: 10%; }
       .padre .gradientes h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
@@ -324,21 +290,7 @@ input:focus {
           width: 150px;
           height: 26px;
           border-radius: 12px;
-          border: 0em; }
-      .padre .gradientes .comentarios {
-        font-kerning: auto;
-        box-sizing: content-box;
-        height: auto; }
-        .padre .gradientes .comentarios input {
-          width: 150px;
-          height: 50px;
-          border-radius: 6px;
-          border: 0em; }
-        .padre .gradientes .comentarios h3 {
-          font-family: 'Quicksand', sans-serif;
-          font-size: calc(8px + 1vw);
-          text-decoration: none;
-          color: #0f001b; } }
+          border: 0em; } }
 
 @media (max-width: 10px) {
   .padre {
@@ -391,8 +343,6 @@ input:focus {
         .padre .gradientes .terminos a:hover {
           text-decoration: none;
           color: #5f5f5f; }
-      .padre .gradientes .espacioterminos {
-        padding: 10%; }
       .padre .gradientes h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
@@ -421,21 +371,7 @@ input:focus {
           width: 100px;
           height: 20px;
           border-radius: 8px;
-          border: 0em; }
-      .padre .gradientes .comentarios {
-        font-kerning: auto;
-        box-sizing: content-box;
-        height: auto; }
-        .padre .gradientes .comentarios input {
-          width: 100px;
-          height: 32px;
-          border-radius: 2px;
-          border: 0em; }
-        .padre .gradientes .comentarios h3 {
-          font-family: 'Quicksand', sans-serif;
-          font-size: calc(8px + 1vw);
-          text-decoration: none;
-          color: #0f001b; } }
+          border: 0em; } }
 
 main {
   font-family: 'Quicksand', sans-serif;
