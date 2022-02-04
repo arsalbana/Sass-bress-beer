@@ -225,8 +225,7 @@ input:focus {
     grid-template-areas: "posicionfotos3" "texto" "gradientes" "footer"; }
     .padre .posicionfotos3 {
       grid-area: posicionfotos3;
-      padding-top: 5%;
-      padding-bottom: 5%; }
+      padding-top: 5%; }
       .padre .posicionfotos3 .cerveza3 h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
@@ -239,8 +238,8 @@ input:focus {
       color: #0f001b;
       font-size: calc(8px + 1vw);
       text-align: center;
-      padding-left: 20%;
-      padding-right: 20%; }
+      padding-top: 2%;
+      padding-bottom: 2%; }
     .padre .gradientes {
       background-color: #ddc79f;
       grid-area: gradientes; }
@@ -306,8 +305,7 @@ input:focus {
     grid-template-areas: "posicionfotos3" "texto" "gradientes" "footer"; }
     .padre .posicionfotos3 {
       grid-area: posicionfotos3;
-      padding-top: 5%;
-      padding-bottom: 5%; }
+      padding-top: 5%; }
       .padre .posicionfotos3 .cerveza3 h2 {
         font-family: 'Pacifico', cursive;
         font-size: calc(12px + 1vw);
@@ -320,8 +318,8 @@ input:focus {
       color: #0f001b;
       font-size: calc(8px + 1vw);
       text-align: center;
-      padding-left: 20%;
-      padding-right: 20%; }
+      padding-top: 2%;
+      padding-bottom: 2%; }
     .padre .gradientes {
       background-color: #ddc79f;
       grid-area: gradientes; }
