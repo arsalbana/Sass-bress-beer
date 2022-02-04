@@ -44,7 +44,7 @@ h2{
     }
     .posicionfotos1{
         grid-area: posicionfotos1;
-        width: 100%;
+        width: 140%;
         align-content: center;
         text-align: center;
         transition: width 0.8s;
@@ -52,7 +52,7 @@ h2{
     }
     .posicionfotos2{
         grid-area: posicionfotos2;
-        width: 100%;
+        width: 140%;
         align-content: center;
         text-align: center;
         transition: width 0.8s;
@@ -60,7 +60,7 @@ h2{
     }
     .posicionfotos3{
         grid-area: posicionfotos3;
-        width: 100%;
+        width: 140%;
         align-content: center;
         text-align: center;
         transition: width 0.8s;
@@ -70,18 +70,18 @@ h2{
     
     .posicionfotos1:hover{
         grid-area: posicionfotos1;
-        width: 105%;
+        width: 145%;
         list-style: none;
     }
     .posicionfotos2:hover{
         grid-area: posicionfotos2;
         list-style: none;
-        width: 105%;
+        width: 145%;
     }
     .posicionfotos3:hover{
         grid-area: posicionfotos3;
         list-style: none;
-        width: 105%;
+        width: 145%;
     }
     .cerveza1{
         list-style: none;
@@ -127,35 +127,32 @@ h2{
     }
     .posicionfotos1{
         grid-area: posicionfotos1;
-        width: 100%;
+        width: 140%;
         max-width: 300px;
         align-content: center;
         text-align: center;
         transition: width 0.8s;
-        padding: 10%;
         margin: auto;
         
     }
     .posicionfotos2{
         grid-area: posicionfotos2;
-        width: 100%;
+        width: 140%;
         max-width: 300px;
         align-content: center;
         text-align: center;
         transition: width 0.8s;
-        padding: 10%;
         margin: auto;
         
         
     }
     .posicionfotos3{
         grid-area: posicionfotos3;
-        width: 100%;
+        width: 140%;
         max-width: 300px;
         align-content: center;
         text-align: center;
         transition: width 0.8s;
-        padding: 10%;
         margin: auto;
         
         
@@ -166,22 +163,22 @@ h2{
     .posicionfotos1:hover{
         grid-area: posicionfotos1;
         list-style: none;
-        width: 105%;
+        width: 145%;
     }
     .posicionfotos2:hover{
         grid-area: posicionfotos2;
         list-style: none;
-        width: 105%;
+        width: 145%;
     }
     .posicionfotos3:hover{
         grid-area: posicionfotos3;
         list-style: none;
-        width: 105%;
+        width: 145%;
     }
     .cerveza1{
         list-style: none;
         grid-area: posicionfotos1;
-        padding: 15%;
+        padding: 10%;
         font-size:calc(10px + #{$width1});
     
     
@@ -189,7 +186,7 @@ h2{
     .cerveza2{
         list-style: none;
         grid-area: posicionfotos2;
-        padding: 15%;
+        padding: 10%;
         font-size:calc(10px + #{$width1});
     
     
@@ -197,7 +194,7 @@ h2{
     .cerveza3{
         list-style: none;
         grid-area: posicionfotos3;
-        padding: 15%;
+        padding: 10%;
         font-size:calc(10px + #{$width1});
     
     }
